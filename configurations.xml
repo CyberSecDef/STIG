@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<configurations>
+  <menu>
+    <item file-ref="">
+    </item>
+    <item file-ref="U_A10_Networks_ADC_ALG_STIG_V1R1_Manual-xccdf" stig-title="A10 Networks ADC ALG Security Technical Implementation Guide">A10 Networks ADC ALG - V1R1 (STIG)</item>
+    <item file-ref="U_A10_Networks_ADC_NDM_STIG_V1R1_Manual-xccdf" stig-title="A10 Networks ADC NDM Security Technical Implementation Guide">A10 Networks ADC NDM - V1R1 (STIG)</item>
+    <item file-ref="U_Active_Directory_Domain_V2R7_STIG_Manual-xccdf" stig-title="Active Directory Domain Security Technical Implementation Guide (STIG)">Active Directory Domain - V2R7 (STIG)</item>
+    <item file-ref="U_Active_Directory_Forest_V2R6_STIG_Manual-xccdf" stig-title="Active Directory Forest Security Technical Implementation Guide (STIG)">Active Directory Forest - V2R6 (STIG)</item>
+    <item file-ref="U_Adobe_Acrobat_Reader_DC_Classic_STIG_V1R1_Manual-xccdf" stig-title="Adobe Acrobat Reader DC Classic Track Security Technical Implementation Guide">Adobe Acrobat Reader DC Classic Track - V1R1 (STIG)</item>
+    <item file-ref="U_Adobe_Acrobat_Reader_DC_Classic_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Adobe Acrobat Reader DC Classic Track Security Technical Implementation Guide">Adobe Acrobat Reader DC Classic Track - V1R1 (Benchmark)</item>
+    <item file-ref="U_Adobe_Acrobat_Reader_DC_Continuous_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Adobe Acrobat Reader DC Continuous Track Security Technical Implementation Guide">Adobe Acrobat Reader DC Continuous Track - V1R1 (Benchmark)</item>
+    <item file-ref="U_Adobe_Acrobat_Reader_DC_Continuous_V1R2_Manual-xccdf" stig-title="Adobe Acrobat Reader DC Continuous Track Security Technical Implementation Guide">Adobe Acrobat Reader DC Continuous Track - V1R2 (STIG)</item>
+    <item file-ref="U_Adobe_ColdFusion_11_STIG_V1R1_Manual-xccdf" stig-title="Adobe ColdFusion 11 Security Technical Implementation Guide">Adobe ColdFusion 11 - V1R1 (STIG)</item>
+    <item file-ref="U_Airwatch_MDM_STIG_V1R3_Manual-xccdf" stig-title="AirWatch MDM STIG">AirWatch MDM - V1R3 (STIG)</item>
+    <item file-ref="U_AIX_5.3-V1R2_STIG_Benchmark-xccdf" stig-title="AIX 5.3 Security Technical Implementation Guide">AIX 5.3 - V1R2 (Benchmark)</item>
+    <item file-ref="U_AIX_5-3_V1R3_Manual-xccdf" stig-title="AIX 5.3 SECURITY TECHNICAL IMPLEMENTATION GUIDE">AIX 5.3 - V1R3 (STIG)</item>
+    <item file-ref="U_AIX_6-1_V1R8_Manual-xccdf" stig-title="AIX 6.1 SECURITY TECHNICAL IMPLEMENTATION GUIDE">AIX 6.1 - V1R8 (STIG)</item>
+    <item file-ref="U_AIX_6-1_V1R8_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="AIX 6.1 SECURITY TECHNICAL IMPLEMENTATION GUIDE">AIX 6.1 - V1R8 (Benchmark)</item>
+    <item file-ref="U_Android_2-2_Dell_V1R2_Manual-xccdf" stig-title="Android 2.2 (Dell) Security Technical Implementation Guide">Android 2.2 (Dell) - V1R2 (STIG)</item>
+    <item file-ref="U_AntiSpywareGeneral_V4R1_Manual-xccdf" stig-title="Desktop Application Antispyware General">Desktop Application Antispyware General - V4R1 (STIG)</item>
+    <item file-ref="U_Apache_2-0_Server_UNIX_V1R5_Manual-xccdf" stig-title="APACHE Server 2.0 for Unix">APACHE Server 2.0 for Unix - V1R5 (STIG)</item>
+    <item file-ref="U_Apache_2-0_Server_WIN_V1R5_Manual-xccdf" stig-title="APACHE SERVER 2.0 for Windows">APACHE SERVER 2.0 for Windows - V1R5 (STIG)</item>
+    <item file-ref="U_Apache_2-0_Site_UNIX_V1R5_Manual-xccdf" stig-title="APACHE SITE 2.0 for Unix">APACHE SITE 2.0 for Unix - V1R5 (STIG)</item>
+    <item file-ref="U_Apache_2-0_Site_WIN_V1R5_Manual-xccdf" stig-title="APACHE SITE 2.0 for Windows">APACHE SITE 2.0 for Windows - V1R5 (STIG)</item>
+    <item file-ref="U_Apache_2-2_Server_UNIX_V1R8_Manual-xccdf" stig-title="APACHE SERVER 2.2 for Unix">APACHE SERVER 2.2 for Unix - V1R8 (STIG)</item>
+    <item file-ref="U_Apache_2-2_Server_WIN_V1R8_Manual-xccdf" stig-title="APACHE SERVER 2.2 for Windows">APACHE SERVER 2.2 for Windows - V1R8 (STIG)</item>
+    <item file-ref="U_Apache_2-2_Site_UNIX_V1R8_Manual-xccdf" stig-title="APACHE SITE 2.2 for Unix">APACHE SITE 2.2 for Unix - V1R8 (STIG)</item>
+    <item file-ref="U_Apache_2-2_Site_WIN_V1R8_Manual-xccdf" stig-title="APACHE SITE 2.2 for Windows">APACHE SITE 2.2 for Windows - V1R8 (STIG)</item>
+    <item file-ref="U_Apple_iOS_6_V1R3_Manual_xccdf" stig-title="Apple iOS6 Security Technical Implementation Guide">Apple iOS6 - V1R3 (STIG)</item>
+    <item file-ref="U_Apple_iOS_7_V1R2_STIG_Manual-xccdf" stig-title="Apple iOS 7 STIG">Apple iOS 7 - V1R2 (STIG)</item>
+    <item file-ref="U_Apple_iOS_8_V1R1_Manual-xccdf" stig-title="Apple iOS 8 Interim Security Configuration Guide">Apple iOS 8 Interim Security Configuration Guide - V1R1 (STIG)</item>
+    <item file-ref="U_Apple_iOS_9_STIG_V1R1_Manual-xccdf" stig-title="Apple iOS 9 Security Technical Implementation Guide">Apple iOS 9 - V1R1 (STIG)</item>
+    <item file-ref="U_Apple_OS_X_10-10_Workstation_V1R3_Manual-xccdf" stig-title="Apple OS X 10.10 (Yosemite) Workstation Security Technical Implementation Guide">Apple OS X 10.10 (Yosemite) Workstation - V1R3 (STIG)</item>
+    <item file-ref="U_Apple_OS_X_10-11_STIG_V1R1_Manual-xccdf" stig-title="Apple OS X 10.11 Security Technical Implementation Guide">Apple OS X 10.11 - V1R1 (STIG)</item>
+    <item file-ref="U_Apple_OS_X_10-8_Workstation_V1R2_Manual-xccdf" stig-title="Apple OS X 10.8 (Mountain Lion) Workstation STIG">Apple OS X 10.8 (Mountain Lion) Workstation - V1R2 (STIG)</item>
+    <item file-ref="U_Apple_OS_X_10-9_Workstation_V1R1_STIG_Manual-xccdf" stig-title="Apple OS X 10.9 (Mavericks) Workstation Security Technical Implementation Guide">Apple OS X 10.9 (Mavericks) Workstation - V1R1 (STIG)</item>
+    <item file-ref="U_Application_Layer_Gateway_V1R2_Manual-xccdf" stig-title="Application Layer Gateway (ALG) Security Requirements Guide (SRG)">Application Layer Gateway (ALG) - V1R2 (STIG)</item>
+    <item file-ref="U_Application_Security_and_Development_V3R10_Manual-xccdf" stig-title="Application Security and Development Checklist">Application Security and Development Checklist - V3R10 (STIG)</item>
+    <item file-ref="U_Application_Server_V2R2_Manual-xccdf" stig-title="Application Server Security Requirements Guide">Application Server - V2R2 (STIG)</item>
+    <item file-ref="U_Arista_MLS_DCS-7000_Series_L2S_STIG_V1R2_Manual-xccdf" stig-title="Arista MLS DCS-7000 Series L2S Security Technical Implementation Guide">Arista MLS DCS-7000 Series L2S - V1R2 (STIG)</item>
+    <item file-ref="U_Arista_MLS_DCS-7000_Series_NDM_STIG_V1R2_Manual-xccdf" stig-title="Arista MLS DCS-7000 Series NDM Security Technical Implementation Guide">Arista MLS DCS-7000 Series NDM - V1R2 (STIG)</item>
+    <item file-ref="U_Arista_MLS_DCS-7000_Series_RTR_STIG_V1R2_Manual-xccdf" stig-title="Arista MLS DCS-7000 Series RTR Security Technical Implementation Guide">Arista MLS DCS-7000 Series RTR - V1R2 (STIG)</item>
+    <item file-ref="U_ASD_STIG_V4R1_Manual-xccdf" stig-title="Application Security and Development Security Technical Implementation Guide">Application Security and Development - V4R1 (STIG)</item>
+    <item file-ref="U_BB_BES_12-3-x_MDM_STIG_V1R1_Manual-xccdf" stig-title="BlackBerry BES 12.3.x MDM Security Technical Implementation Guide">BlackBerry BES 12.3.x MDM - V1R1 (STIG)</item>
+    <item file-ref="U_BES_10-1-x_Blackberry_Device_Service_V1R3_Manual-xccdf" stig-title="BlackBerry Enterprise Service v10.1.x BlackBerry Device Service STIG">BlackBerry Enterprise Service v10.1.x BlackBerry Device Service - V1R3 (STIG)</item>
+    <item file-ref="U_BIND_DNS_V4R1-19_Manual-xccdf" stig-title="BIND DNS STIG">BIND DNS - V4R1.19 (STIG)</item>
+    <item file-ref="U_BlackBerry_10_OS_V1R3_Manual-xccdf" stig-title="BlackBerry 10 OS Security Technical Implementation Guide">BlackBerry 10 OS - V1R3 (STIG)</item>
+    <item file-ref="U_BlackBerry_10-2-X_OS_V1R6_Manual-xccdf" stig-title="BlackBerry 10.2.x OS Security Technical Implementation Guide">BlackBerry 10.2.x OS - V1R6 (STIG)</item>
+    <item file-ref="U_Blackberry_BES_v10-2-X_BDS_V1R5_Manual-xccdf" stig-title="BlackBerry Enterprise Service v10.2.x BlackBerry Device Service STIG">BlackBerry Enterprise Service v10.2.x BlackBerry Device Service - V1R5 (STIG)</item>
+    <item file-ref="U_BlackBerry_Device_Service_v6.2_V1R1_manual-xccdf" stig-title="BlackBerry Device Service 6.2 STIG">BlackBerry Device Service 6.2 - V1R1 (STIG)</item>
+    <item file-ref="U_BlackBerry_Enterprise_Server_5-X_Part1_V2R8_Manual-xccdf" stig-title="BlackBerry Enterprise Server (version 5.x), Part 1 Security Technical Implementation Guide">BlackBerry Enterprise Server (version 5.x), Part 1 - V2R8 (STIG)</item>
+    <item file-ref="U_BlackBerry_Enterprise_Server_5-X_Part2_V2R8_Manual-xccdf" stig-title="BlackBerry Enterprise Server (version 5.x), Part 2 Security Technical Implementation Guide">BlackBerry Enterprise Server (version 5.x), Part 2 - V2R8 (STIG)</item>
+    <item file-ref="U_BlackBerry_Enterprise_Server_5-X_Part3_V2R8_Manual-xccdf" stig-title="BlackBerry Enterprise Server (version 5.x), Part 3 Security Technical Implementation Guide">BlackBerry Enterprise Server (version 5.x), Part 3 - V2R8 (STIG)</item>
+    <item file-ref="U_BlackBerry_OS_10-3-x_STIG_V1R2_Manual-xccdf" stig-title="BlackBerry OS 10.3.x Security Technical Implementation Guide">BlackBerry OS 10.3.x - V1R2 (STIG)</item>
+    <item file-ref="U_BlackBerry_OS_7-X-X_V2R9_Manual-xccdf" stig-title="BlackBerry OS 7.x.x Security Technical Implementation Guide">BlackBerry OS 7.x.x - V2R9 (STIG)</item>
+    <item file-ref="U_BlackBerry_Playbook_OS_NEA_mode_V1R7_Manual-xccdf" stig-title="BlackBerry Playbook OS (NEA mode) Security Technical Implementation Guide (STIG)">BlackBerry Playbook OS (NEA mode) - V1R7 (STIG)</item>
+    <item file-ref="U_Bluetooth_Zigbee_V6R9_manual-xccdf" stig-title="Bluetooth/Zigbee Security Technical Implementation Guide (STIG)">Bluetooth/Zigbee - V6R8 (STIG)</item>
+    <item file-ref="U_CISCO_CSS_DNS_V4R1-18_Manual-xccdf" stig-title="CISCO CSS DNS">CISCO CSS DNS - V4R1.18 (STIG)</item>
+    <item file-ref="U_CMD_Management_Server_Policy_V2R3_Manual-xccdf" stig-title="CMD Management Server Policy Security Technical Implementation Guide (STIG)">CMD Management Server Policy - V2R3 (STIG)</item>
+    <item file-ref="U_CMD_Policy_V2R3_manual_xccdf" stig-title="Commercial Mobile Device (CMD) Policy Security Technical Implementation Guide (STIG)">Commercial Mobile Device (CMD) Policy - V2R3 (STIG)</item>
+    <item file-ref="U_Database_V2R4_SRG_Manual-xccdf" stig-title="Database Security Requirements Guide">Database - V2R4 (STIG)</item>
+    <item file-ref="U_Desktop_Apps_General_V4R4_Manual-xccdf" stig-title="Desktop Applications General">Desktop Applications General - V4R4 (STIG)</item>
+    <item file-ref="U_DNS_Policy_V4R1-19_Manual-xccdf" stig-title="DNS Policy">DNS Policy - V4R1.19 (STIG)</item>
+    <item file-ref="U_Domain_Name_System_V2R4_Manual-xccdf" stig-title="Domain Name System (DNS) Security Requirements Guide">Domain Name System (DNS) - V2R4 (STIG)</item>
+    <item file-ref="U_DSN_V2R7_Manual-xccdf" stig-title="Defense Switched Network (DSN) STIG">Defense Switched Network (DSN) - V2R7 (STIG)</item>
+    <item file-ref="U_EDB_Postgres_Advanced_Server_STIG_V1R1_Manual-xccdf" stig-title="EDB Postgres Advanced Server Security Technical Implementation Guide">EDB Postgres Advanced Server - V1R1 (STIG)</item>
+    <item file-ref="U_Email_Services_Policy_V2R6_Manual-xccdf" stig-title="Email Services Policy STIG">Email Services Policy - V2R6 (STIG)</item>
+    <item file-ref="U_Enclave_Test_and_Development_Zone_A_V1R3_Manual-xccdf" stig-title="Test and Development Zone A Security Technical Implementation Guide">Test and Development Zone A - V1R3 (STIG)</item>
+    <item file-ref="U_Enclave_Test_and_Development_Zone_B_V1R3_Manual-xccdf" stig-title="Test and Development Zone B Security Technical Implementation Guide">Test and Development Zone B - V1R3 (STIG)</item>
+    <item file-ref="U_Enclave_Test_and_Development_Zone_C_V1R3_Manual-xccdf" stig-title="Test and Development Zone C Security Technical Implementation Guide">Test and Development Zone C - V1R3 (STIG)</item>
+    <item file-ref="U_Enclave_Test_and_Development_Zone_D_V1R3_Manual-xccdf" stig-title="Test and Development Zone D Security Technical Implementation Guide">Test and Development Zone D - V1R3 (STIG)</item>
+    <item file-ref="U_ESXi5_Server_V1R9_Manual-xccdf" stig-title="VMware ESXi Server 5.0 Security Technical Implementation Guide">VMware ESXi Server 5.0 - V1R9 (STIG)</item>
+    <item file-ref="U_ESXi5_vCenter_Server_V1R7_Manual-xccdf" stig-title="VMware vCenter Server Version 5 Security Technical Implementation Guide">VMware vCenter Server Version 5 - V1R7 (STIG)</item>
+    <item file-ref="U_ESXi5_Virtual_Machine_V1R6_Manual-xccdf" stig-title="VMware ESXi Version 5 Virtual Machine Security Technical Implementation Guide">VMware ESXi Version 5 Virtual Machine - V1R6 (STIG)</item>
+    <item file-ref="U_Exchange_2003_Policy_V1R4_Manual-xccdf" stig-title="Email Services Policy">Email Services Policy - V1R4 (STIG)</item>
+    <item file-ref="U_Exchange_2003_Server_V1R5_Manual-xccdf" stig-title="Microsoft Exchange Server 2003">Microsoft Exchange Server 2003 - V1R5 (STIG)</item>
+    <item file-ref="U_Exchange_2010_Client_Access_V1R8_Manual-xccdf" stig-title="Exchange 2010 Client Access Server STIG">Exchange 2010 Client Access Server - V1R8 (STIG)</item>
+    <item file-ref="U_Exchange_2010_Edge_V1R11_Manual-xccdf" stig-title="Exchange 2010 Edge Transport Server STIG">Exchange 2010 Edge Transport Server - V1R11 (STIG)</item>
+    <item file-ref="U_Exchange_2010_Hub_V1R11_Manual-xccdf" stig-title="Exchange 2010 Hub Transport Server STIG">Exchange 2010 Hub Transport Server - V1R11 (STIG)</item>
+    <item file-ref="U_Exchange_2010_Mailbox_V1R7_Manual-xccdf" stig-title="Exchange 2010 Mailbox Server STIG">Exchange 2010 Mailbox Server - V1R7 (STIG)</item>
+    <item file-ref="U_F5_BIG-IP_Access_Policy_Manager_11-x_STIG_V1R1_Manual-xccdf" stig-title="F5 BIG-IP Access Policy Manager 11.x Security Technical Implementation Guide">F5 BIG-IP Access Policy Manager 11.x - V1R1 (STIG)</item>
+    <item file-ref="U_F5_BIG-IP_Advanced_Firewall_Manager_11-x_STIG_V1R1_Manual-xccdf" stig-title="F5 BIG-IP Advanced Firewall Manager 11.x Security Technical Implementation Guide">F5 BIG-IP Advanced Firewall Manager 11.x - V1R1 (STIG)</item>
+    <item file-ref="U_F5_BIG-IP_Application_Security_Manager_11-x_STIG_V1R1_Manual-xccdf" stig-title="F5 BIG-IP Application Security Manager 11.x Security Technical Implementation Guide">F5 BIG-IP Application Security Manager 11.x - V1R1 (STIG)</item>
+    <item file-ref="U_F5_BIG-IP_Device_Management_11-x_V1R2_Manual-xccdf" stig-title="F5 BIG-IP Device Management 11.x Security Technical Implementation Guide">F5 BIG-IP Device Management 11.x - V1R2 (STIG)</item>
+    <item file-ref="U_F5_BIG-IP_Local_Traffic_Manager_11-x_STIG_V1R1_Manual-xccdf" stig-title="F5 BIG-IP Local Traffic Manager 11.x Security Technical Implementation Guide">F5 BIG-IP Local Traffic Manager 11.x - V1R1 (STIG)</item>
+    <item file-ref="U_General_Purpose_Operating_System_V1R4_Manual-xccdf" stig-title="General Purpose Operating System SRG">General Purpose Operating System SRG - V1R4 (STIG)</item>
+    <item file-ref="U_General_Wireless_Policy_V1R6_manual-xccdf" stig-title="Final Draft General Wireless Policy Security Technical Implementation Guide">Final Draft General Wireless Policy - V1R6 (STIG)</item>
+    <item file-ref="U_General_Wireless_Policy_V1R7_Manual-xccdf" stig-title="General Wireless Policy Security Technical Implementation Guide">General Wireless Policy - V1R7 (STIG)</item>
+    <item file-ref="U_Good_for_Enterprise_8.x_V1R1_Manual-xccdf" stig-title="Good for Enterprise 8.x Security Technical Implementation Guide">Good for Enterprise 8.x - V1R1 (STIG)</item>
+    <item file-ref="U_Good_Mobility_Suite_(Windows_Phone)_V1R2_manual-xccdf" stig-title="Good Mobility Suite Server (Windows Phone 6.5) Security Technical Implementation Guide">Good Mobility Suite Server (Windows Phone 6.5) - V1R2 (STIG)</item>
+    <item file-ref="U_Good_Mobility_Suite_Android_2-2_V1R1_Manual-xccdf" stig-title="Good Mobility Suite Server (Android OS) Security Technical Implementation Guide">Good Mobility Suite Server (Android OS) - V1R1 (STIG)</item>
+    <item file-ref="U_Google_Chrome_Browser_V1R5_Manual-xccdf" stig-title="Google Chrome Current Windows STIG">Google Chrome Current Windows - V1R5 (STIG)</item>
+    <item file-ref="U_Google_Search_Appliance_STIG_V1R1_Manual-xccdf" stig-title="Google Search Appliance Security Technical Implementation Guide">Google Search Appliance - V1R1 (STIG)</item>
+    <item file-ref="U_GoogleChrome24Windows_V1R1_STIG_Benchmark-xccdf" stig-title="Google Chrome v24 Windows Benchmark">Google Chrome v24 Windows - V1R1 (Benchmark)</item>
+    <item file-ref="U_GoolgeChrome23Windows_V1R1_STIG_Benchmark-xccdf" stig-title="Google Chrome v23 Windows STIG ">Google Chrome v23 Windows - V1R1 (Benchmark)</item>
+    <item file-ref="U_HP_FlexFabric_Switch_L2S_STIG_V1R1_Manual-xccdf" stig-title="HP FlexFabric Switch L2S Security Technical Implementation Guide">HP FlexFabric Switch L2S - V1R1 (STIG)</item>
+    <item file-ref="U_HP_FlexFabric_Switch_NDM_STIG_V1R1_Manual-xccdf" stig-title="HP FlexFabric Switch NDM Security Technical Implementation Guide">HP FlexFabric Switch NDM - V1R1 (STIG)</item>
+    <item file-ref="U_HP_FlexFabric_Switch_RTR_STIG_V1R1_Manual-xccdf" stig-title="HP FlexFabric Switch RTR Security Technical Implementation Guide">HP FlexFabric Switch RTR - V1R1 (STIG)</item>
+    <item file-ref="U_HPUX_11-23_V1R8_Manual-xccdf" stig-title="HP-UX 11.23 Security Technical Implementation Guide">HP-UX 11.23 - V1R8 (STIG)</item>
+    <item file-ref="U_HPUX_11-23_V1R9_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="HP-UX 11.23 Security Technical Implementation Guide">HP-UX 11.23 - V1R9 (Benchmark)</item>
+    <item file-ref="U_HPUX_11-31_V1R11_Manual-xccdf" stig-title="HP-UX 11.31 Security Technical Implementation Guide">HP-UX 11.31 - V1R11 (STIG)</item>
+    <item file-ref="U_HPUX_11-31_V1R12_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="HP-UX 11.31 Security Technical Implementation Guide">HP-UX 11.31 - V1R12 (Benchmark)</item>
+    <item file-ref="U_IBM_DataPower_ALG_STIG_V1R1_Manual-xccdf" stig-title="IBM DataPower ALG Security Technical Implementation Guide">IBM DataPower ALG - V1R1 (STIG)</item>
+    <item file-ref="U_IBM_DataPower_NDM_STIG_V1R1_Manual-xccdf" stig-title="IBM DataPower Network Device Management Security Technical Implementation Guide">IBM DataPower Network Device Management - V1R1 (STIG)</item>
+    <item file-ref="U_IBM_Hardware_Management_Console_Policy_V1R2_STIG_Manual-xccdf" stig-title="IBM Hardware Management Console (HMC) STIG Policies">IBM Hardware Management Console (HMC) Policies - V1R2 (STIG)</item>
+    <item file-ref="U_IBM_Hardware_Management_Console_V1R5_Manual-xccdf" stig-title="IBM Hardware Management Console (HMC) STIG">IBM Hardware Management Console (HMC) - V1R5 (STIG)</item>
+    <item file-ref="U_IBM_MaaS360_v2-3-x_MDM_STIG_V1R1_Manual-xccdf" stig-title="IBM MaaS360 v2.3.x MDM Security Technical Implementation Guide">IBM MaaS360 v2.3.x MDM - V1R1 (STIG)</item>
+    <item file-ref="U_IIS_6-0_Server_V6R16_Manual-xccdf" stig-title="IIS6 Server">IIS6 Server - V6R16 (STIG)</item>
+    <item file-ref="U_IIS_6-0_Site_V6R16_Manual-xccdf" stig-title="IIS6 Site">IIS6 Site - V6R16 (STIG)</item>
+    <item file-ref="U_IIS_7-0_Server_V1R10_Manual-xccdf" stig-title="IIS 7.0 WEB SERVER STIG">IIS 7.0 WEB SERVER - V1R10 (STIG)</item>
+    <item file-ref="U_IIS_7-0_Site_V1R10_Manual-xccdf" stig-title="IIS 7.0 WEB SITE STIG">IIS 7.0 WEB SITE - V1R10 (STIG)</item>
+    <item file-ref="U_Infoblox_7-x_DNS_STIG_V1R1_Manual-xccdf" stig-title="Infoblox 7.x DNS Security Technical Implementation Guide">Infoblox 7.x DNS - V1R1 (STIG)</item>
+    <item file-ref="U_Intrusion_Detection_and_Prevention_System_V2R2_Manual-xccdf" stig-title="Intrusion Detection and Prevention Systems (IDPS) Security Requirements Guide">Intrusion Detection and Prevention Systems (IDPS) - V2R2 (STIG)</item>
+    <item file-ref="U_ISA2006_V1R2_manual-xccdf" stig-title="Microsoft ISA Server 2006">Microsoft ISA Server 2006 - V1R2 (STIG)</item>
+    <item file-ref="U_ISA2006Policy_V1R2_Manual-xccdf" stig-title="Microsoft ISA Server 2006 (OWA Proxy)">Microsoft ISA Server 2006 (OWA Proxy) - V1R2 (STIG)</item>
+    <item file-ref="U_JBoss_EAP_6-3_STIG_V1R1_Manual-xccdf" stig-title="JBoss EAP 6.3 Security Technical Implementation Guide">JBoss EAP 6.3 - V1R1 (STIG)</item>
+    <item file-ref="U_JRE6_UNIX_V1R6_Manual-xccdf" stig-title="Java Runtime Environment (JRE) version 6 STIG for Unix">Java Runtime Environment (JRE) version 6 for Unix - V1R6 (STIG)</item>
+    <item file-ref="U_JRE6_WIN7_V1R8_Manual-xccdf" stig-title="Java Runtime Environment (JRE) version 6 STIG for Windows 7">Java Runtime Environment (JRE) version 6 for Windows 7 - V1R8 (STIG)</item>
+    <item file-ref="U_JRE6WinXP_V1R5_Manual-xccdf" stig-title="Java Runtime Environment (JRE) 6 STIG for Windows XP">Java Runtime Environment (JRE) 6 for Windows XP - V1R5 (STIG)</item>
+    <item file-ref="U_JRE7_UNIX_V1R6_Manual-xccdf" stig-title="Java Runtime Environment (JRE) version 7 STIG for Unix">Java Runtime Environment (JRE) version 7 for Unix - V1R6 (STIG)</item>
+    <item file-ref="U_JRE7_WIN7_V1R8_Manual-xccdf" stig-title="Java Runtime Environment (JRE) version 7 STIG for Windows 7">Java Runtime Environment (JRE) version 7 for Windows 7 - V1R8 (STIG)</item>
+    <item file-ref="U_JRE7WinXP_V1R5_Manual-xccdf" stig-title="Java Runtime Environment (JRE) version 7 STIG for WinXP">Java Runtime Environment (JRE) version 7 for WinXP - V1R5 (STIG)</item>
+    <item file-ref="U_Juniper_SRX_SG_ALG_STIG_V1R1_Manual-xccdf" stig-title="Juniper SRX SG ALG Security Technical Implementation Guide">Juniper SRX SG ALG - V1R1 (STIG)</item>
+    <item file-ref="U_Juniper_SRX_SG_IDPS_STIG_V1R1_Manual-xccdf" stig-title="Juniper SRX SG IDPS Security Technical Implementation Guide">Juniper SRX SG IDPS - V1R1 (STIG)</item>
+    <item file-ref="U_Juniper_SRX_SG_NDM_STIG_V1R1_Manual-xccdf" stig-title="Juniper SRX SG NDM Security Technical Implementation Guide">Juniper SRX SG NDM - V1R1 (STIG)</item>
+    <item file-ref="U_Juniper_SRX_SG_VPN_STIG_V1R1_Manual-xccdf" stig-title="Juniper SRX SG VPN Security Technical Implementation Guide">Juniper SRX SG VPN - V1R1 (STIG)</item>
+    <item file-ref="U_Keyboard_Video_and_Mouse_Switch_V2R6_Manual-xccdf" stig-title="Keyboard Video and Mouse Switch STIG">Keyboard Video and Mouse Switch - V2R6 (STIG)</item>
+    <item file-ref="U_LG_Android_5-x_ISCG_V1R2_Manual-xccdf" stig-title="LG Android 5.x Interim Security Configuration Guide">LG Android 5.x Interim Security Configuration Guide - V1R2 (STIG)</item>
+    <item file-ref="U_LG_Android_6-x_STIG_V1R1_Manual-xccdf" stig-title="LG Android 6.x Security Technical Implementation Guide">LG Android 6.x - V1R1 (STIG)</item>
+    <item file-ref="U_Mac_10.5_V1R2_STIG_Manual-XCCDF" stig-title="MAC OSX 10.5 Security Technical Implementation Guide">MAC OSX 10.5 - V1R2 (STIG)</item>
+    <item file-ref="U_MACOSX_10-6_V1R3_manual-xccdf" stig-title="MAC OSX 10.6 Workstation Security Technical Implementation Guide">MAC OSX 10.6 Workstation - V1R3 (STIG)</item>
+    <item file-ref="U_Mainframe_Product_SRG_V1R1_Manual-xccdf" stig-title="Mainframe Product Security Requirements Guide">Mainframe Product - V1R1 (STIG)</item>
+    <item file-ref="U_MAM_Server_V1R2_manual-xccdf" stig-title="Mobile Application Management (MAM) Server Security Technical Implementation Guide (STIG)">Mobile Application Management (MAM) Server - V1R2 (STIG)</item>
+    <item file-ref="U_McAfee_MOVE_Agentless_3-0_3-6-1_SVA_V1R4_Manual-xccdf" stig-title="McAfee MOVE Agentless 3.0/3.6.1 Security Virtual Appliance STIG">McAfee MOVE Agentless 3.0/3.6.1 Security Virtual Appliance - V1R4 (STIG)</item>
+    <item file-ref="U_McAfee_MOVE_Multi-Platform_2-6_3-6-1_Client_V1R4_Manual-xccdf" stig-title="McAfee MOVE 2.6/3.6.1 Multi-Platform Client STIG">McAfee MOVE 2.6/3.6.1 Multi-Platform Client - V1R4 (STIG)</item>
+    <item file-ref="U_McAfee_MOVE_Multi-Platform_2-6_3-6-1_OSS_V1R4_Manual-xccdf" stig-title="McAfee MOVE 2.6/3.6.1 Multi-Platform OSS STIG">McAfee MOVE 2.6/3.6.1 Multi-Platform OSS - V1R4 (STIG)</item>
+    <item file-ref="U_McAfee_MOVE3_0_Agentless_SVA_V1R3_Manual-xccdf" stig-title="McAfee MOVE Agentless 3.0 Security Virtual Appliance STIG">McAfee MOVE Agentless 3.0 Security Virtual Appliance - V1R3 (STIG)</item>
+    <item file-ref="U_McAfee_MOVE3_0_Agentless_VSEL_for_SVA_V1R3_Manual-xccdf" stig-title="McAfee MOVE Agentless 3.0 VSEL 1.9 for SVA STIG">McAfee MOVE Agentless 3.0 VSEL 1.9 for SVA - V1R3 (STIG)</item>
+    <item file-ref="U_McAfee_VirusScan88_Local_Client_V5R9_Manual-xccdf" stig-title="McAfee VirusScan 8.8 Local Client STIG">McAfee VirusScan 8.8 Local Client - V5R9 (STIG)</item>
+    <item file-ref="U_McAfee_VirusScan88_Managed_Client_V5R11_Manual-xccdf" stig-title="McAfee VirusScan 8.8 Managed Client STIG">McAfee VirusScan 8.8 Managed Client - V5R11 (STIG)</item>
+    <item file-ref="U_McAfee_VSEL_1-9_2-0_Local_Client_STIG_V1R2_Manual-xccdf" stig-title="McAfee VSEL 1.9/2.0 Local Client Security Technical Implementation Guide">McAfee VSEL 1.9/2.0 Local Client - V1R2 (STIG)</item>
+    <item file-ref="U_McAfee_VSEL_1-9_2-0_Managed_Client_STIG_V1R2_Manual-xccdf" stig-title="McAfee VSEL 1.9/2.0 Managed Client Security Technical Implementation Guide">McAfee VSEL 1.9/2.0 Managed Client - V1R2 (STIG)</item>
+    <item file-ref="U_McAfeeVirusScanLocalClient_V4R10_Manual-XCCDF" stig-title="McAfee VirusScan Locally Configured Client ">McAfee VirusScan Locally Configured Client - V4R10 (STIG)</item>
+    <item file-ref="U_McAfeeVirusScanManagedClient_V4R10_Manual-XCCDF" stig-title="McAfee VirusScan Managed Client">McAfee VirusScan Managed Client - V4R10 (STIG)</item>
+    <item file-ref="U_MDIS_Server_V1R2_manual-xccdf" stig-title="Mobile Device Integrity Scanning (MDIS) Server Security Technical Implementation Guide (STIG)">Mobile Device Integrity Scanning (MDIS) Server - V1R2 (STIG)</item>
+    <item file-ref="U_MDM_Server_V1R2_manual-xccdf" stig-title="Mobile Device Management (MDM) Server Security Technical Implementation Guide (STIG)">Mobile Device Management (MDM) Server - V1R2 (STIG)</item>
+    <item file-ref="U_MEM_Server_V1R2_manual-xccdf" stig-title="Mobile Email Management (MEM) Server Security Technical Implementation Guide (STIG)">Mobile Email Management (MEM) Server - V1R2 (STIG)</item>
+    <item file-ref="U_Microsoft_DotNet_Framework_4_V1R4_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Dot Net Framework 4.0 STIG">Microsoft Dot Net Framework 4.0 - V1R4 (Benchmark)</item>
+    <item file-ref="U_Microsoft_DotNet_Framework_4-0_V1R3_Manual-xccdf" stig-title="Microsoft Dot Net Framework 4.0 STIG">Microsoft Dot Net Framework 4.0 - V1R3 (STIG)</item>
+    <item file-ref="U_Microsoft_IE10_V1R13_Manual-xccdf" stig-title="Microsoft Internet Explorer 10 Security Technical Implementation Guide">Microsoft Internet Explorer 10 - V1R13 (STIG)</item>
+    <item file-ref="U_Microsoft_IE10_V1R4_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Microsoft Internet Explorer 10 Security Technical Implementation Guide">Microsoft Internet Explorer 10 - V1R4 (Benchmark)</item>
+    <item file-ref="U_Microsoft_IE10_V1R8_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Internet Explorer 10 Security Technical Implementation Guide">Microsoft Internet Explorer 10 - V1R8 (Benchmark)</item>
+    <item file-ref="U_Microsoft_IE11_V1R3_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Microsoft Internet Explorer 11 Security Technical Implementation Guide">Microsoft Internet Explorer 11 - V1R3 (Benchmark)</item>
+    <item file-ref="U_Microsoft_IE11_V1R6_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Internet Explorer 11 Security Technical Implementation Guide">Microsoft Internet Explorer 11 - V1R6 (Benchmark)</item>
+    <item file-ref="U_Microsoft_IE11_V1R9_Manual-xccdf" stig-title="Microsoft Internet Explorer 11 Security Technical Implementation Guide">Microsoft Internet Explorer 11 - V1R9 (STIG)</item>
+    <item file-ref="U_Microsoft_IE6_V4R11_Manual-xccdf" stig-title="Microsoft IE Version 6 ">Microsoft IE Version 6 - V4R11 (STIG)</item>
+    <item file-ref="U_Microsoft_IE7_V4R20_Manual-xccdf" stig-title="Microsoft IE Version 7 ">Microsoft IE Version 7 - V4R20 (STIG)</item>
+    <item file-ref="U_Microsoft_IE8_V1R12_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Internet Explorer 8 STIG">Internet Explorer 8 - V1R15 (Benchmark)</item>
+    <item file-ref="U_Microsoft_IE8_V1R20_Manual-xccdf" stig-title="Internet Explorer 8 STIG">Internet Explorer 8 - V1R20 (STIG)</item>
+    <item file-ref="U_Microsoft_IE9_V1R15_Manual-xccdf" stig-title="Microsoft Internet Explorer 9 Security Technical Implementation Guide">Microsoft Internet Explorer 9 - V1R15 (STIG)</item>
+    <item file-ref="U_Microsoft_IE9_V1R7_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Internet Explorer 9 Security Technical Implementation Guide">Internet Explorer 9 - V1R7 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Access_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Access 2010">Microsoft Access 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Access_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Access 2013 STIG">Microsoft Access 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Excel_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Excel 2010">Microsoft Excel 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Excel_2013_V1R2_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Excel 2013 STIG">Microsoft Excel 2013 - V1R2 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Groove_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Groove 2013 STIG">Microsoft Groove 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_InfoPath_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft InfoPath 2010">Microsoft InfoPath 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_InfoPath_2013_V1R2_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft InfoPath 2013 STIG">Microsoft InfoPath 2013 - V1R2 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Lync_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Lync 2013 STIG">Microsoft Lync 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_OneNote_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft OneNote 2010">Microsoft OneNote 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_OneNote_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft OneNote 2013 STIG">Microsoft OneNote 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Outlook_2010_V1R2_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Outlook 2010">Microsoft Outlook 2010 - V1R2 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Outlook_2013_V1R3_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Outlook 2013 STIG">Microsoft Outlook 2013 - V1R3 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Outlook_2013_V1R4_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Outlook 2013 STIG">Microsoft Outlook 2013 - V1R4 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Powerpoint_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft PowerPoint 2010">Microsoft PowerPoint 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Powerpoint_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft PowerPoint 2013 STIG">Microsoft PowerPoint 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Project_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Project 2010">Microsoft Project 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Project_2013_V1R2_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Project 2013 STIG">Microsoft Project 2013 - V1R2 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Publisher_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Publisher 2010">Microsoft Publisher 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Publisher_2013_V1R2_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Publisher 2013 STIG">Microsoft Publisher 2013 - V1R2 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Sharepointdesigner_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft SharePoint Designer 2013 STIG">Microsoft SharePoint Designer 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_System_2010_V1R2_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Office System 2010">Microsoft Office System 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_System_2013_V1R2_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Office System 2013 STIG">Microsoft Office System 2013 - V1R2 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Visio_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Visio 2013 STIG">Microsoft Visio 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Word_2010_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Word 2010">Microsoft Word 2010 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Office_Word_2013_V1R1_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Microsoft Word 2013 STIG">Microsoft Word 2013 - V1R1 (Benchmark)</item>
+    <item file-ref="U_Microsoft_Outlook_2007_STIG_V4R15_Manual-xccdf" stig-title="Microsoft Outlook 2007">Microsoft Outlook 2007 - V4R15 (STIG)</item>
+    <item file-ref="U_Microsoft_Windows_2012_Server_Domain_Name_System_V1R4_Manual-xccdf" stig-title="Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide">Microsoft Windows 2012 Server Domain Name System - V1R4 (STIG)</item>
+    <item file-ref="U_Microsoft_Windows_Phone_8-1_STIG_V1R2_Manual-xccdf" stig-title="Microsoft Windows Phone 8.1 Security Technical Implementation Guide">Microsoft Windows Phone 8.1 - V1R2 (STIG)</item>
+    <item file-ref="U_MicrosoftAccess2003_V4R4_Manual-xccdf" stig-title="Microsoft Access 2003 ">Microsoft Access 2003 - V4R4 (STIG)</item>
+    <item file-ref="U_MicrosoftAccess2007_V4R14_Manual-xccdf" stig-title="Microsoft Access 2007">Microsoft Access 2007 - V4R14 (STIG)</item>
+    <item file-ref="U_MicrosoftAccess2010_V1R8_Manual-xccdf" stig-title="Microsoft Access 2010">Microsoft Access 2010 - V1R8 (STIG)</item>
+    <item file-ref="U_MicrosoftAccess2013_V1R2_Manual-xccdf" stig-title="Microsoft Access 2013 STIG">Microsoft Access 2013 - V1R2 (STIG)</item>
+    <item file-ref="U_MicrosoftExcel2003_V4R4_Manual-xccdf" stig-title="Microsoft Excel 2003 ">Microsoft Excel 2003 - V4R4 (STIG)</item>
+    <item file-ref="U_MicrosoftExcel2007_V4R12_Manual-xccdf" stig-title="Microsoft Excel 2007 ">Microsoft Excel 2007 - V4R12 (STIG)</item>
+    <item file-ref="U_MicrosoftExcel2010_V1R9_Manual-xccdf" stig-title="Microsoft Excel 2010">Microsoft Excel 2010 - V1R9 (STIG)</item>
+    <item file-ref="U_MicrosoftExcel2013_V1R4_Manual-xccdf" stig-title="Microsoft Excel 2013 STIG">Microsoft Excel 2013 - V1R4 (STIG)</item>
+    <item file-ref="U_MicrosoftGroove2013_V1R2_Manual-xccdf" stig-title="Microsoft Groove 2013 STIG">Microsoft Groove 2013 - V1R2 (STIG)</item>
+    <item file-ref="U_MicrosoftInfoPath2003_V4R4_Manual-xccdf" stig-title="Microsoft InfoPath 2003 ">Microsoft InfoPath 2003 - V4R4 (STIG)</item>
+    <item file-ref="U_MicrosoftInfoPath2007_V4R12_Manual-xccdf" stig-title="Microsoft InfoPath 2007 ">Microsoft InfoPath 2007 - V4R12 (STIG)</item>
+    <item file-ref="U_MicrosoftInfoPath2010_V1R9_Manual-xccdf" stig-title="Microsoft InfoPath 2010">Microsoft InfoPath 2010 - V1R9 (STIG)</item>
+    <item file-ref="U_MicrosoftInfoPath2013_V1R3_Manual-xccdf" stig-title="Microsoft InfoPath 2013 STIG">Microsoft InfoPath 2013 - V1R3 (STIG)</item>
+    <item file-ref="U_MicrosoftLync2013_V1R3_Manual-xccdf" stig-title="Microsoft Lync 2013 STIG">Microsoft Lync 2013 - V1R3 (STIG)</item>
+    <item file-ref="U_MicrosoftOfficeSystem2007_V4R14_Manual-xccdf" stig-title="Microsoft Office System 2007">Microsoft Office System 2007 - V4R14 (STIG)</item>
+    <item file-ref="U_MicrosoftOfficeSystem2010_V1R10_Manual-xccdf" stig-title="Microsoft Office System 2010">Microsoft Office System 2010 - V1R10 (STIG)</item>
+    <item file-ref="U_MicrosoftOfficeSystem2013_V1R3_Manual-xccdf" stig-title="Microsoft Office System 2013 STIG">Microsoft Office System 2013 - V1R3 (STIG)</item>
+    <item file-ref="U_MicrosoftOneNote2010_V1R8_Manual-xccdf" stig-title="Microsoft OneNote 2010">Microsoft OneNote 2010 - V1R8 (STIG)</item>
+    <item file-ref="U_MicrosoftOneNote2013_V1R2_Manual-xccdf" stig-title="Microsoft OneNote 2013 STIG">Microsoft OneNote 2013 - V1R2 (STIG)</item>
+    <item file-ref="U_MicrosoftOutlook2003_V4R4_Manual-xccdf" stig-title="Microsoft Outlook 2003 ">Microsoft Outlook 2003 - V4R4 (STIG)</item>
+    <item file-ref="U_MicrosoftOutlook2010_V1R11_Manual-xccdf" stig-title="Microsoft Outlook 2010">Microsoft Outlook 2010 - V1R11 (STIG)</item>
+    <item file-ref="U_MicrosoftOutlook2013_V1R7_Manual-xccdf" stig-title="Microsoft Outlook 2013 STIG">Microsoft Outlook 2013 - V1R7 (STIG)</item>
+    <item file-ref="U_MicrosoftPowerPoint2003_V4R4_Manual-xccdf" stig-title="Microsoft PowerPoint 2003 STIG">Microsoft PowerPoint 2003 - V4R4 (STIG)</item>
+    <item file-ref="U_MicrosoftPowerPoint2007_V4R15_Manual-xccdf" stig-title="Microsoft PowerPoint 2007">Microsoft PowerPoint 2007 - V4R15 (STIG)</item>
+    <item file-ref="U_MicrosoftPowerPoint2010_V1R8_Manual-xccdf" stig-title="Microsoft PowerPoint 2010">Microsoft PowerPoint 2010 - V1R8 (STIG)</item>
+    <item file-ref="U_MicrosoftPowerPoint2013_V1R3_Manual-xccdf" stig-title="Microsoft PowerPoint 2013 STIG">Microsoft PowerPoint 2013 - V1R3 (STIG)</item>
+    <item file-ref="U_MicrosoftProject2010_V1R8_Manual-xccdf" stig-title="Microsoft Project 2010">Microsoft Project 2010 - V1R8 (STIG)</item>
+    <item file-ref="U_MicrosoftProject2013_V1R2_Manual-xccdf" stig-title="Microsoft Project 2013 STIG">Microsoft Project 2013 - V1R2 (STIG)</item>
+    <item file-ref="U_MicrosoftPublisher2010_V1R9_Manual-xccdf" stig-title="Microsoft Publisher 2010">Microsoft Publisher 2010 - V1R9 (STIG)</item>
+    <item file-ref="U_MicrosoftPublisher2013_V1R3_Manual-xccdf" stig-title="Microsoft Publisher 2013 STIG">Microsoft Publisher 2013 - V1R3 (STIG)</item>
+    <item file-ref="U_MicrosoftSharePointDesigner2013_V1R2_Manual-xccdf" stig-title="Microsoft SharePoint Designer 2013 STIG">Microsoft SharePoint Designer 2013 - V1R2 (STIG)</item>
+    <item file-ref="U_MicrosoftVisio2013_V1R2_Manual-xccdf" stig-title="Microsoft Visio 2013 STIG">Microsoft Visio 2013 - V1R2 (STIG)</item>
+    <item file-ref="U_MicrosoftWord2003_V4R4_Manual-xccdf" stig-title="Microsoft Word 2003 ">Microsoft Word 2003 - V4R4 (STIG)</item>
+    <item file-ref="U_MicrosoftWord2007_V4R14_Manual-xccdf" stig-title="Microsoft Word 2007 ">Microsoft Word 2007 - V4R14 (STIG)</item>
+    <item file-ref="U_MicrosoftWord2010_V1R9_Manual-xccdf" stig-title="Microsoft Word 2010">Microsoft Word 2010 - V1R9 (STIG)</item>
+    <item file-ref="U_MicrosoftWord2013_V1R3_Manual-xccdf" stig-title="Microsoft Word 2013 STIG">Microsoft Word 2013 - V1R3 (STIG)</item>
+    <item file-ref="U_Mobile_Policy_V1R2_manual-xccdf" stig-title="Mobile Policy Security Requirements Guide">Mobile Policy - V1R2 (STIG)</item>
+    <item file-ref="U_Mobility_Policy_V2R2_manual_xccdf" stig-title="Mobility Policy Security Technical Implementation Guide (STIG)">Mobility Policy - V2R2 (STIG)</item>
+    <item file-ref="U_Mozilla_Firefox_V4R15_STIG_Manual-xccdf" stig-title="Mozilla Firefox">Mozilla Firefox - V4R15 (STIG)</item>
+    <item file-ref="U_MS_SQL_Server_2014_Database_STIG_V1R1_Manual-xccdf" stig-title="MS SQL Server 2014 Database Security Technical Implementation Guide">MS SQL Server 2014 Database - V1R1 (STIG)</item>
+    <item file-ref="U_MS_SQL_Server_2014_Instance_STIG_V1R2_Manual-xccdf" stig-title="MS SQL Server 2014 Instance Security Technical Implementation Guide">MS SQL Server 2014 Instance - V1R2 (STIG)</item>
+    <item file-ref="U_Multifunction_Device_and_Network_Printers_V2R8_Manual-xccdf" stig-title="Multifunction Device and Network Printers STIG">Multifunction Device and Network Printers - V2R8 (STIG)</item>
+    <item file-ref="U_Network _Perimeter_Router_V8R22_Manual_STIG-xccdf" stig-title="Perimeter Router Security Technical Implementation Guide ">Perimeter Router - V8R22 (STIG)</item>
+    <item file-ref="U_Network_CSfC_WLAN_Policy_V1R2_Manual-xccdf" stig-title="CSfC Campus WLAN Policy Security Implementation Guide">CSfC Campus WLAN Policy - V1R2 (STIG)</item>
+    <item file-ref="U_Network_Device_Management_SRG_V2R6_Manual-xccdf" stig-title="Network Device Management Security Requirements Guide">Network Device Management - V2R6 (STIG)</item>
+    <item file-ref="U_Network_Devices_V8R19_Manual-xccdf" stig-title="Network Devices Security Technical Implementation Guide">Network Devices - V8R19 (STIG)</item>
+    <item file-ref="U_Network_Firewall_Cisco_PIX_ASA_V8R19_Manual-xccdf" stig-title="Firewall Security Technical Implementation Guide - Cisco">Firewall - Cisco - V8R19 (STIG)</item>
+    <item file-ref="U_Network_Firewall_V8R19_Manual-xccdf" stig-title="Firewall Security Technical Implementation Guide">Firewall - V8R19 (STIG)</item>
+    <item file-ref="U_Network_Harris_SecNet_11_54_V6R9_Manual-xccdf" stig-title="Harris SecNet 11 / 54 Security Technical Implementation Guide (STIG)">Harris SecNet 11 / 54 - V6R7 (STIG)</item>
+    <item file-ref="U_Network_Infrastructure_L3_Switch_Cisco_V8R20_Manual-xccdf" stig-title="Infrastructure L3 Switch Secure Technical Implementation Guide - Cisco">Infrastructure L3 Switch Secure Technical Implementation Guide - Cisco - V8R20 (STIG)</item>
+    <item file-ref="U_Network_Infrastructure_L3_Switch_V8R20_Manual-xccdf" stig-title="Infrastructure L3 Switch Security Technical Implementation Guide">Infrastructure L3 Switch - V8R20 (STIG)</item>
+    <item file-ref="U_Network_Infrastructure_Policy_STIG_V9R1_Manual-xccdf" stig-title="Network Infrastructure Policy Security Technical Implementation Guide">Network Infrastructure Policy - V9R1 (STIG)</item>
+    <item file-ref="U_Network_Infrastructure_Router_Cisco_V8R20_Manual-xccdf" stig-title="Infrastructure Router Security Technical Implementation Guide  Cisco">Infrastructure Router Cisco - V8R20 (STIG)</item>
+    <item file-ref="U_Network_Infrastructure_Router_Juniper_V8R20_Manual-xccdf" stig-title="Infrastructure Router Security Technical Implementation Guide  Juniper">Infrastructure Router Juniper - V8R20 (STIG)</item>
+    <item file-ref="U_Network_Infrastructure_Router_V8R20_Manual-xccdf" stig-title="Infrastructure Router Security Technical Implementation Guide ">Infrastructure Router - V8R20 (STIG)</item>
+    <item file-ref="U_Network_IPSec_VPN_Gateway_V1R10_Manual-xccdf" stig-title="IPSec VPN Gateway Security Technical Implementation Guide">IPSec VPN Gateway - V1R10 (STIG)</item>
+    <item file-ref="U_Network_L2_Switch_Cisco_V8R19_Manual-xccdf" stig-title="Layer 2 Switch Security Technical Implementation Guide - Cisco">Layer 2 Switch - Cisco - V8R19 (STIG)</item>
+    <item file-ref="U_Network_L2_Switch_V8R19_Manual-xccdf" stig-title="Layer 2 Switch Security Technical Implementation Guide">Layer 2 Switch - V8R19 (STIG)</item>
+    <item file-ref="U_Network_L3_KOV-26_Talon_Wireless_Role_V6R7_Manual-xccdf" stig-title="L3 KOV-26 Talon (Wireless Role) Security Technical Implementation Guide (STIG)">L3 KOV-26 Talon (Wireless Role) - V6R7 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_L3_Switch_Cisco_V8R22_Manual-xccdf" stig-title="Perimeter L3 Switch Security Technical Implementation Guide - Cisco">Perimeter L3 Switch - Cisco - V8R22 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_L3_Switch_Cisco_V8R23_Manual-xccdf" stig-title="Perimeter L3 Switch Security Technical Implementation Guide - Cisco">Perimeter L3 Switch - Cisco - V8R23 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_L3_Switch_V8R22_Manual-xccdf" stig-title="Perimeter L3 Switch Security Technical Implementation Guide">Perimeter L3 Switch - V8R22 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_L3_Switch_V8R23_Manual-xccdf" stig-title="Perimeter L3 Switch Security Technical Implementation Guide">Perimeter L3 Switch - V8R23 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_Router_Cisco_V8R22_Manual-xccdf" stig-title="Perimeter Router Security Technical Implementation Guide Cisco">Perimeter Router Cisco - V8R22 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_Router_Cisco_V8R23_Manual-xccdf" stig-title="Perimeter Router Security Technical Implementation Guide Cisco">Perimeter Router Cisco - V8R23 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_Router_Juniper_V8R22_Manual-xccdf" stig-title="Perimeter Router Security Technical Implementation Guide Juniper">Perimeter Router Juniper - V8R22 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_Router_Juniper_V8R23_Manual-xccdf" stig-title="Perimeter Router Security Technical Implementation Guide Juniper">Perimeter Router Juniper - V8R23 (STIG)</item>
+    <item file-ref="U_Network_Perimeter_Router_V8R23_Manual_STIG-xccdf" stig-title="Perimeter Router Security Technical Implementation Guide ">Perimeter Router - V8R23 (STIG)</item>
+    <item file-ref="U_Network_WLAN_Access_Point_Enclave-NIPRNet-Connected_Role_V6R11_Manual-xccdf" stig-title="WLAN Access Point (Enclave-NIPRNet Connected) Security Technical Implementation Guide (STIG)">WLAN Access Point (Enclave-NIPRNet Connected) - V6R11 (STIG)</item>
+    <item file-ref="U_Network_WLAN_Access_Point_Internet_Gateway-Only_Connection_Role_V6R11_Manual-xccdf" stig-title="WLAN Access Point (Internet Gateway Only Connection) Security Technical Implementation Guide (STIG)">WLAN Access Point (Internet Gateway Only Connection) - V6R11 (STIG)</item>
+    <item file-ref="U_Network_WLAN_Bridge_V6R11_Manual-xccdf" stig-title="WLAN Bridge Security Technical Implementation Guide (STIG)">WLAN Bridge - V6R11 (STIG)</item>
+    <item file-ref="U_Network_WLAN_Controller_V6R11_Manual-xccdf" stig-title="WLAN Controller Security Technical Implementation Guide (STIG)">WLAN Controller - V6R11 (STIG)</item>
+    <item file-ref="U_Network_WMAN_Access_Point_V6R10_Manual-xccdf" stig-title="WMAN Access Point Security Technical Implementation Guide (STIG)">WMAN Access Point - V6R10 (STIG)</item>
+    <item file-ref="U_Network_WMAN_Bridge_V6R10_Manual-xccdf" stig-title="WMAN Bridge Security Technical Implementation Guide (STIG)">WMAN Bridge - V6R10 (STIG)</item>
+    <item file-ref="U_Oracle_Database_11-2g_V1R8_Manual-xccdf" stig-title="Oracle Database 11.2g Security Technical Implementation Guide">Oracle Database 11.2g - V1R8 (STIG)</item>
+    <item file-ref="U_Oracle_Database_11g_Installation_V8R18_Manual-xccdf" stig-title="Oracle Database 11g Installation STIG">Oracle Database 11g Installation - V8R18 (STIG)</item>
+    <item file-ref="U_Oracle_Database_11g_Instance_V8R18_Manual-xccdf" stig-title="Oracle Database 11g Instance STIG">Oracle Database 11g Instance - V8R18 (STIG)</item>
+    <item file-ref="U_Oracle_Database_12c_V1R4_Manual-xccdf" stig-title="Oracle Database 12c Security Technical Implementation Guide">Oracle Database 12c - V1R4 (STIG)</item>
+    <item file-ref="U_Oracle_DB_10g_Installation_V8R1.11_Manual-xccdf" stig-title="Oracle Database 10g Installation STIG">Oracle Database 10g Installation - V8R1.11 (STIG)</item>
+    <item file-ref="U_Oracle_DB_10g_Instance_STIG_V8R1.11_Manual-xccdf" stig-title="Oracle Database 10g Instance STIG">Oracle Database 10g Instance - V8R1.11 (STIG)</item>
+    <item file-ref="U_Oracle_HTTP_Server_12-1-3_STIG_V1R1_Manual-xccdf" stig-title="Oracle HTTP Server 12.1.3 Security Technical Implementation Guide">Oracle HTTP Server 12.1.3 - V1R1 (STIG)</item>
+    <item file-ref="U_Oracle_JRE_8_UNIX_STIG_V1R1_Manual-xccdf" stig-title="Oracle Java Runtime Environment (JRE) 8 STIG for UNIX">Oracle Java Runtime Environment (JRE) 8 for UNIX - V1R1 (STIG)</item>
+    <item file-ref="U_Oracle_JRE_8_Windows_STIG_V1R1_Manual-xccdf" stig-title="Oracle Java Runtime Environment (JRE) 8 STIG for Windows">Oracle Java Runtime Environment (JRE) 8 for Windows - V1R1 (STIG)</item>
+    <item file-ref="U_Oracle_Linux_5_V1R7_Manual-xccdf" stig-title="Oracle Linux 5 Security Technical Implementation Guide">Oracle Linux 5 - V1R7 (STIG)</item>
+    <item file-ref="U_Oracle_Linux_6_V1R7_Manual-xccdf" stig-title="Oracle Linux 6 Security Technical Implementation Guide">Oracle Linux 6 - V1R7 (STIG)</item>
+    <item file-ref="U_Oracle_WebLogic_Server_12c_V1R2_Manual-xccdf" stig-title="Oracle WebLogic Server 12c Security Technical Implementation Guide">Oracle WebLogic Server 12c - V1R2 (STIG)</item>
+    <item file-ref="U_Oracle10_DB_Installation_V8R1.10_Manual-xccdf" stig-title="Oracle 10 Database Installation STIG">Oracle 10 Database Installation - V8R1.10 (STIG)</item>
+    <item file-ref="U_Oracle10_DB_Instance_V8R1.10_Manual-xccdf" stig-title="Oracle 10 Database Instance STIG">Oracle 10 Database Instance - V8R1.10 (STIG)</item>
+    <item file-ref="U_Palo_Alto_Networks_ALG_STIG_V1R2_Manual-xccdf" stig-title="Palo Alto Networks ALG Security Technical Implementation Guide">Palo Alto Networks ALG - V1R2 (STIG)</item>
+    <item file-ref="U_Palo_Alto_Networks_IDPS_STIG_V1R1_Manual-xccdf" stig-title="Palo Alto Networks IDPS Security Technical Implementation Guide">Palo Alto Networks IDPS - V1R1 (STIG)</item>
+    <item file-ref="U_Palo_Alto_Networks_NDM_STIG_V1R2_Manual-xccdf" stig-title="Palo Alto Networks NDM Security Technical Implementation Guide">Palo Alto Networks NDM - V1R2 (STIG)</item>
+    <item file-ref="U_PDA_Smartphone_V6R9_manual-xccdf" stig-title="PDA Security Technical Implementation Guide (STIG)">PDA - V6R8 (STIG)</item>
+    <item file-ref="U_PlayBook_OS_2-1_V1R2_Manual-xccdf" stig-title="BlackBerry PlayBook OS V2.1 Security Technical Implementation Guide">BlackBerry PlayBook OS V2.1 - V1R2 (STIG)</item>
+    <item file-ref="U_RedHat_5_V1R15_Manual-xccdf" stig-title="Red Hat Enterprise Linux 5 Security Technical Implementation Guide">Red Hat Enterprise Linux 5 - V1R15 (STIG)</item>
+    <item file-ref="U_RedHat_5_V1R16_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Red Hat Enterprise Linux 5 Security Technical Implementation Guide">Red Hat Enterprise Linux 5 - V1R16 (Benchmark)</item>
+    <item file-ref="U_RedHat_6_V1R12_Manual-xccdf" stig-title="Red Hat Enterprise Linux 6 Security Technical Implementation Guide">Red Hat Enterprise Linux 6 - V1R12 (STIG)</item>
+    <item file-ref="U_RedHat_6_V1R12_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Red Hat Enterprise Linux 6 Security Technical Implementation Guide">Red Hat Enterprise Linux 6 - V1R12 (Benchmark)</item>
+    <item file-ref="U_Remote_Access_Policy_V2R11_Manual-xccdf" stig-title="Remote Access Policy STIG">Remote Access Policy - V2R11 (STIG)</item>
+    <item file-ref="U_Remote_Access_Server_V2R7_Manual-XCCDF" stig-title="Remote Access Server STIG">Remote Access Server - V2R7 (STIG)</item>
+    <item file-ref="U_Remote_Access_VPN_V2R7_Manual-XCCDF" stig-title="Remote Access VPN STIG">Remote Access VPN - V2R7 (STIG)</item>
+    <item file-ref="U_Remote_Endpoint_V2R7_Manual-XCCDF" stig-title="Remote Endpoint STIG">Remote Endpoint - V2R7 (STIG)</item>
+    <item file-ref="U_Remote_XenApp_ICA_Thin_Client_V2R7_Manual-XCCDF" stig-title="Remote XenApp, ICA, and Thin Client STIG">Remote XenApp, ICA, and Thin Client - V2R7 (STIG)</item>
+    <item file-ref="U_Removable_Storage_and_External_Connections_V1R3_Manual-xccdf" stig-title="Removable Storage and External Connections Security Technical Implementation Guide">Removable Storage and External Connections - V1R3 (STIG)</item>
+    <item file-ref="U_RFID_Scanner_V6R9_manual-xccdf" stig-title="RFID Scanner Security Technical Implementation Guide (STIG)">RFID Scanner - V6R8 (STIG)</item>
+    <item file-ref="U_RFID_Workstation_V6R9_manual-xccdf" stig-title="RFID Workstation Security Technical Implementation Guide (STIG)">RFID Workstation - V6R8 (STIG)</item>
+    <item file-ref="U_Riverbed_SteelHead_CX_v8_ALG_STIG_V1R1_Manual-xccdf" stig-title="Riverbed SteelHead CX v8 ALG Security Technical Implementation Guide">Riverbed SteelHead CX v8 ALG - V1R1 (STIG)</item>
+    <item file-ref="U_Riverbed_SteelHead_CX_v8_NDM_STIG_V1R1_Manual-xccdf" stig-title="Riverbed SteelHead CX v8 NDM Security Technical Implementation Guide">Riverbed SteelHead CX v8 NDM - V1R1 (STIG)</item>
+    <item file-ref="U_Router_V2R3_Manual-xccdf" stig-title="Router Security Requirements Guide">Router - V2R3 (STIG)</item>
+    <item file-ref="U_Samsung_Android_OS_5_with_Knox_2-x_STIG_V1R3_Manual-xccdf.xml" stig-title="Samsung Android OS 5 with Knox 2.0 Security Technical Implementation Guide">Samsung Android OS 5 with Knox 2.0 - V1R3 (STIG)</item>
+    <item file-ref="U_Samsung_Android_OS_6_KNOX_2-x_STIG_V1R1_Manual-xccdf" stig-title="Samsung Android OS 6 (with KNOX 2.x) Security Technical Implementation Guide">Samsung Android OS 6 (with KNOX 2.x) - V1R1 (STIG)</item>
+    <item file-ref="U_Samsung_Android_with_Knox2_x_V1R3_Manual_xccdf.xml" stig-title="Samsung Android (with Knox 2.x) STIG">Samsung Android (with Knox 2.x) - V1R4 (STIG)</item>
+    <item file-ref="U_Sharepoint_2010_V1R7_Manual-xccdf" stig-title="SharePoint 2010 Security Technical Implementation Guide (STIG)">SharePoint 2010 - V1R7 (STIG)</item>
+    <item file-ref="U_SharePoint_2013_STIG_V1R3_Manual-xccdf" stig-title="SharePoint 2013 Security Technical Implementation Guide">SharePoint 2013 - V1R3 (STIG)</item>
+    <item file-ref="U_SLES_V11_for System z_V1R7_STIG-xccdf" stig-title="SUSE Linux Enterprise Server v11 for System z">SUSE Linux Enterprise Server v11 for System z - V1R7 (STIG)</item>
+    <item file-ref="U_Smartphone_Policy_V1R5_manual_xccdf" stig-title="Smartphone Policy Security Technical Implementation Guide">Smartphone Policy - V1R5 (STIG)</item>
+    <item file-ref="U_Smartphone_Policy_V1R6_Manual_xccdf" stig-title="Smartphone Policy Security Technical Implementation Guide">Smartphone Policy - V1R6 (STIG)</item>
+    <item file-ref="U_Solaris_10_SPARC_V1R15_Manual-xccdf" stig-title="SOLARIS 10 SPARC SECURITY TECHNICAL IMPLEMENTATION GUIDE">SOLARIS 10 SPARC - V1R15 (STIG)</item>
+    <item file-ref="U_Solaris_10_SPARC_V1R15_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="SOLARIS 10 SPARC SECURITY TECHNICAL IMPLEMENTATION GUIDE">SOLARIS 10 SPARC - V1R15 (Benchmark)</item>
+    <item file-ref="U_Solaris_10_X86_V1R15_Manual-xccdf" stig-title="SOLARIS 10 X86 SECURITY TECHNICAL IMPLEMENTATION GUIDE">SOLARIS 10 X86 - V1R15 (STIG)</item>
+    <item file-ref="U_Solaris_10_X86_V1R15_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="SOLARIS 10 X86 SECURITY TECHNICAL IMPLEMENTATION GUIDE">SOLARIS 10 X86 - V1R15 (Benchmark)</item>
+    <item file-ref="U_Solaris_11_SPARC_V1R3_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Solaris 11 SPARC Security Technical Implementation Guide">Solaris 11 SPARC - V1R3 (Benchmark)</item>
+    <item file-ref="U_Solaris_11_SPARC_V1R8_Manual-xccdf" stig-title="Solaris 11 SPARC Security Technical Implementation Guide">Solaris 11 SPARC - V1R8 (STIG)</item>
+    <item file-ref="U_Solaris_11_X86_V1R3_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Solaris 11 X86 Security Technical Implementation Guide">Solaris 11 X86 - V1R3 (Benchmark)</item>
+    <item file-ref="U_Solaris_11_X86_V1R8_Manual-xccdf" stig-title="Solaris 11 X86 Security Technical Implementation Guide">Solaris 11 X86 - V1R8 (STIG)</item>
+    <item file-ref="U_Solaris_9_SPARC_V1R12_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="SOLARIS 9 SPARC SECURITY TECHNICAL IMPLEMENTATION GUIDE">SOLARIS 9 SPARC - V1R12 (Benchmark)</item>
+    <item file-ref="U_Solaris_9_SPARC_V1R9_Manual-xccdf" stig-title="SOLARIS 9 SPARC SECURITY TECHNICAL IMPLEMENTATION GUIDE">SOLARIS 9 SPARC - V1R9 (STIG)</item>
+    <item file-ref="U_Solaris_9_X86_V1R9_Manual-xccdf" stig-title="SOLARIS 9 X86 SECURITY TECHNICAL IMPLEMENTATION GUIDE">SOLARIS 9 X86 - V1R9 (STIG)</item>
+    <item file-ref="U_SQL_Server_2005_Database_V8R1-9_Manual-xccdf" stig-title="Microsoft SQL Server 2005 Database Security Technical Implementation Guide">Microsoft SQL Server 2005 Database - V8R1.9 (STIG)</item>
+    <item file-ref="U_SQL_Server_2005_Instance_V8R1-9_Manual-xccdf" stig-title="Microsoft SQL Server 2005 Instance Security Technical Implementation Guide">Microsoft SQL Server 2005 Instance - V8R1.9 (STIG)</item>
+    <item file-ref="U_SQL_Server_2012_Database_V1R11_Manual-xccdf" stig-title="Microsoft SQL Server 2012 Database Security Technical Implementation Guide">Microsoft SQL Server 2012 Database - V1R11 (STIG)</item>
+    <item file-ref="U_SQL_Server_2012_Instance_V1R11_Manual-xccdf" stig-title="Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide">Microsoft SQL Server 2012 Database Instance - V1R11 (STIG)</item>
+    <item file-ref="U_Storage_Area_Network_V2R2_Manual-XCCDF" stig-title="Storage Area Network STIG">Storage Area Network - V2R2 (STIG)</item>
+    <item file-ref="U_Sun_Ray_Policy_V1R2_Manual-xccdf" stig-title="Sun Ray 4 Policy STIG">Sun Ray 4 Policy - V1R2 (STIG)</item>
+    <item file-ref="U_Sun_Ray_V1R2_Manual-xccdf" stig-title="Sun Ray 4 STIG">Sun Ray 4 - V1R2 (STIG)</item>
+    <item file-ref="U_Symantec_Endpoint_Protection_12-1_Locally_Configured_V1R3_Manual-xccdf" stig-title="Symantec Endpoint Protection 12.1 Local Client Antivirus STIG">Symantec Endpoint Protection 12.1 Local Client Antivirus - V1R4 (STIG)</item>
+    <item file-ref="U_Symantec_Endpoint_Protection_12-1_Managed_Client_V1R4_Manual-xccdf" stig-title="Symantec Endpoint Protection 12.1 Managed Client Antivirus">Symantec Endpoint Protection 12.1 Managed Client Antivirus - V1R4 (STIG)</item>
+    <item file-ref="U_SymantecAntiVirusLocallyConfiguredClient_V4R1_Manual-xccdf" stig-title="Symantec AntiVirus Locally Configured Client ">Symantec AntiVirus Locally Configured Client - V4R1 (STIG)</item>
+    <item file-ref="U_SymantecAntiVirusManagedClient_V4R1_manual-xccdf" stig-title="Symantec AntiVirus Managed Client ">Symantec AntiVirus Managed Client - V4R1 (STIG)</item>
+    <item file-ref="U_Tanium_6-5_STIG_V1R1_Manual-xccdf" stig-title="Tanium 6.5 Security Technical Implementation Guide">Tanium 6.5 - V1R1 (STIG)</item>
+    <item file-ref="U_traditional_security_v1r2_checklist-xccdf" stig-title="Traditional Security">Traditional Security - V1R2 (STIG)</item>
+    <item file-ref="U_Trend_Micro_Deep_Security_9-x_STIG_V1R1_Manual-xccdf" stig-title="Trend Micro Deep Security 9.x Security Technical Implementation Guide">Trend Micro Deep Security 9.x - V1R1 (STIG)</item>
+    <item file-ref="U_Video_Services_Policy_V1R8_Manual-xccdf" stig-title="Video Services Policy STIG ">Video Services Policy - V1R8 (STIG)</item>
+    <item file-ref="U_Video_Teleconference_V1R6_Manual-xccdf" stig-title="Video Teleconference (VTC) STIG">Video Teleconference (VTC) - V1R6 (STIG)</item>
+    <item file-ref="U_VMware_ESX_3_Policy_V1R2_Manual-xccdf" stig-title="VMware ESX 3 Policy">VMware ESX 3 Policy - V1R2 (STIG)</item>
+    <item file-ref="U_VMware_ESX_3_Server_V1R2_Manual-xccdf" stig-title="VMware ESX 3 Server">VMware ESX 3 Server - V1R2 (STIG)</item>
+    <item file-ref="U_VMware_ESX_3_Virtual_Center_V1R2_Manual-xccdf" stig-title="VMware ESX 3 Virtual Center">VMware ESX 3 Virtual Center - V1R2 (STIG)</item>
+    <item file-ref="U_VMware_ESX_3_Virtual_Machine_V1R2_Manual-xccdf" stig-title="VMware ESX 3 Virtual Machine">VMware ESX 3 Virtual Machine - V1R2 (STIG)</item>
+    <item file-ref="U_VMware_NSX_Distributed_Firewall_STIG_V1R1_Manual-xccdf" stig-title="VMware NSX Distributed Firewall Security Technical Implementation Guide">VMware NSX Distributed Firewall - V1R1 (STIG)</item>
+    <item file-ref="U_VMware_NSX_Distributed_Logical_Router_STIG_V1R1_Manual-xccdf" stig-title="VMware NSX Distributed Logical Router Security Technical Implementation Guide">VMware NSX Distributed Logical Router - V1R1 (STIG)</item>
+    <item file-ref="U_VMware_NSX_Manager_STIG_V1R1_Manual-xccdf" stig-title="VMware NSX Manager Security Technical Implementation Guide">VMware NSX Manager - V1R1 (STIG)</item>
+    <item file-ref="U_VMware_vSphere_6-0_ESXi_V1R2_Manual-xccdf" stig-title="VMware vSphere ESXi 6.0 Security Technical Implementation Guide">VMware vSphere ESXi 6.0 - V1R2 (STIG)</item>
+    <item file-ref="U_VMware_vSphere_6-0_vCenter_Server_for_Windows_STIG_V1R2_Manual-xccdf" stig-title="VMware vSphere vCenter Server Version 6 Security Technical Implementation Guide">VMware vSphere vCenter Server Version 6 - V1R2 (STIG)</item>
+    <item file-ref="U_VMware_vSphere_6-0_Virtual_Machine_STIG_V1R1_Manual-xccdf" stig-title="VMware vSphere Virtual Machine Version 6 Security Technical Implementation Guide">VMware vSphere Virtual Machine Version 6 - V1R1 (STIG)</item>
+    <item file-ref="U_Voice_Video_Endpoint_V1R2_Manual-xccdf" stig-title="Voice Video Endpoint Security Requirements Guide">Voice Video Endpoint - V1R2 (STIG)</item>
+    <item file-ref="U_Voice_Video_Services_Policy_V3R9_Manual-xccdf" stig-title="Voice Video Services Policy STIG">Voice Video Services Policy - V3R9 (STIG)</item>
+    <item file-ref="U_Voice_Video_Session_Management_SRG_V1R1_Manual-xccdf" stig-title="Voice Video Session Management Security Requirements Guide">Voice Video Session Management - V1R1 (STIG)</item>
+    <item file-ref="U_VVoIP_V3R9_Manual-xccdf" stig-title="Voice/Video over Internet Protocol (VVoIP) STIG">Voice/Video over Internet Protocol (VVoIP) - V3R9 (STIG)</item>
+    <item file-ref="U_Web_Server_V2R2_Manual-xccdf" stig-title="Web Server Security Requirements Guide">Web Server - V2R2 (STIG)</item>
+    <item file-ref="U_Windows_10_STIG_V1R5_Manual-xccdf" stig-title="Windows 10 Security Technical Implementation Guide">Windows 10 - V1R5 (STIG)</item>
+    <item file-ref="U_Windows_10_V1R3_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows 10 Security Technical Implementation Guide">Windows 10 - V1R3 (Benchmark)</item>
+    <item file-ref="U_Windows_2003_DC_V6R1-38_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows 2003 Domain Controller Security Technical Implementation Guide">Windows 2003 Domain Controller - V6R1.38 (Benchmark)</item>
+    <item file-ref="U_Windows_2003_DC_V6R37_STIG_Manual-xccdf" stig-title="Windows 2003 Domain Controller Security Technical Implementation Guide">Windows 2003 Domain Controller - V6R37 (STIG)</item>
+    <item file-ref="U_Windows_2003_DC_V6R40_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows 2003 Domain Controller Security Technical Implementation Guide">Windows 2003 Domain Controller - V6R40 (Benchmark)</item>
+    <item file-ref="U_Windows_2003_MS_V6R1-38_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows 2003 Member Server Security Technical Implementation Guide">Windows 2003 Member Server - V6R1.38 (Benchmark)</item>
+    <item file-ref="U_Windows_2003_MS_V6R37_STIG_Manual-xccdf" stig-title="Windows 2003 Member Server Security Technical Implementation Guide">Windows 2003 Member Server - V6R37 (STIG)</item>
+    <item file-ref="U_Windows_2003_MS_V6R40_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows 2003 Member Server Security Technical Implementation Guide">Windows 2003 Member Server - V6R40 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_DC_V6R1-30_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows 2008 Domain Controller Security Technical Implementation Guide">Windows 2008 Domain Controller - V6R1.30 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_DC_V6R33_STIG_Manual-xccdf" stig-title="Windows 2008 Domain Controller Security Technical Implementation Guide">Windows 2008 Domain Controller - V6R33 (STIG)</item>
+    <item file-ref="U_Windows_2008_DC_V6R35_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows 2008 Domain Controller Security Technical Implementation Guide">Windows 2008 Domain Controller - V6R35 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_MS_V6R1-30_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows 2008 Member Server Security Technical Implementation Guide">Windows 2008 Member Server - V6R1.30 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_MS_V6R33_STIG_Manual-xccdf" stig-title="Windows 2008 Member Server Security Technical Implementation Guide">Windows 2008 Member Server - V6R33 (STIG)</item>
+    <item file-ref="U_Windows_2008_MS_V6R35_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows 2008 Member Server Security Technical Implementation Guide">Windows 2008 Member Server - V6R35 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_R2_DC_V1R16_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows Server 2008 R2 Domain Controller Security Technical Implementation Guide">Windows Server 2008 R2 Domain Controller - V1R16 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_R2_DC_V1R19_STIG_Manual-xccdf" stig-title="Windows Server 2008 R2 Domain Controller Security Technical Implementation Guide">Windows Server 2008 R2 Domain Controller - V1R19 (STIG)</item>
+    <item file-ref="U_Windows_2008_R2_DC_V1R21_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows Server 2008 R2 Domain Controller Security Technical Implementation Guide">Windows Server 2008 R2 Domain Controller - V1R21 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_R2_MS_V1R16_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows Server 2008 R2 Member Server Security Technical Implementation Guide">Windows Server 2008 R2 Member Server - V1R16 (Benchmark)</item>
+    <item file-ref="U_Windows_2008_R2_MS_V1R19_STIG_Manual-xccdf" stig-title="Windows Server 2008 R2 Member Server Security Technical Implementation Guide">Windows Server 2008 R2 Member Server - V1R19 (STIG)</item>
+    <item file-ref="U_Windows_2008_R2_MS_V1R22_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows Server 2008 R2 Member Server Security Technical Implementation Guide">Windows Server 2008 R2 Member Server - V1R22 (Benchmark)</item>
+    <item file-ref="U_Windows_2012_and_2012_R2_DC_STIG_V2R5_Manual-xccdf" stig-title="Windows Server 2012 / 2012 R2 Domain Controller Security Technical Implementation Guide">Windows Server 2012 / 2012 R2 Domain Controller - V2R5 (STIG)</item>
+    <item file-ref="U_Windows_2012_and_2012_R2_DC_V2R5_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows Server 2012 / 2012 R2 Domain Controller Security Technical Implementation Guide">Windows Server 2012 / 2012 R2 Domain Controller - V2R5 (Benchmark)</item>
+    <item file-ref="U_Windows_2012_and_2012_R2_MS_STIG_V2R5_Manual-xccdf" stig-title="Windows Server 2012 / 2012 R2 Member Server Security Technical Implementation Guide">Windows Server 2012 / 2012 R2 Member Server - V2R5 (STIG)</item>
+    <item file-ref="U_Windows_2012_and_2012_R2_MS_V2R5_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows Server 2012 / 2012 R2 Member Server Security Technical Implementation Guide">Windows Server 2012 / 2012 R2 Member Server - V2R5 (Benchmark)</item>
+    <item file-ref="U_Windows_7_V1R23_STIG_Manual-xccdf" stig-title="Windows 7 Security Technical Implementation Guide">Windows 7 - V1R23 (STIG)</item>
+    <item file-ref="U_Windows_7_V1R24_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows 7 Security Technical Implementation Guide">Windows 7 - V1R24 (Benchmark)</item>
+    <item file-ref="U_Windows_7_V1R29_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows 7 Security Technical Implementation Guide">Windows 7 - V1R29 (Benchmark)</item>
+    <item file-ref="U_Windows_8_and_8-1_V1R14_STIG_Manual-xccdf" stig-title="Windows 8 / 8.1 Security Technical Implementation Guide">Windows 8 / 8.1 - V1R14 (STIG)</item>
+    <item file-ref="U_Windows_8_and_8-1_V1R15_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows 8 / 8.1 Security Technical Implementation Guide">Windows 8 / 8.1 - V1R15 (Benchmark)</item>
+    <item file-ref="U_Windows_8_V1R9_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows 8 / 8.1 Security Technical Implementation Guide">Windows 8 / 8.1 - V1R8 (Benchmark)</item>
+    <item file-ref="U_Windows_DNS_V4R1-19_Manual-xccdf" stig-title="Windows DNS">Windows DNS - V4R1.19 (STIG)</item>
+    <item file-ref="U_Windows_Firewall_V1R4_Manual-xccdf" stig-title="Windows Firewall with Advanced Security Security Technical Implementation Guide">Windows Firewall with Advanced Security - V1R4 (STIG)</item>
+    <item file-ref="U_Windows_Firewall_V1R4_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows Firewall with Advanced Security Security Technical Implementation Guide">Windows Firewall with Advanced Security - V1R4 (Benchmark)</item>
+    <item file-ref="U_Windows_Phone_6.5_(GMS)_V1R2_manual-xccdf" stig-title="Windows Phone 6.5 (with Good Mobility Suite) Security Technical Implementation Guide">Windows Phone 6.5 (with Good Mobility Suite) - V1R2 (STIG)</item>
+    <item file-ref="U_Windows_Vista_V6R1-38_STIG_SCAP_1-0_Benchmark-xccdf" stig-title="Windows Vista Security Technical Implementation Guide">Windows Vista - V6R1.38 (Benchmark)</item>
+    <item file-ref="U_Windows_Vista_V6R40_STIG_Manual-xccdf" stig-title="Windows Vista Security Technical Implementation Guide">Windows Vista - V6R40 (STIG)</item>
+    <item file-ref="U_Windows_Vista_V6R43_STIG_SCAP_1-1_Benchmark-xccdf" stig-title="Windows Vista Security Technical Implementation Guide">Windows Vista - V6R43 (Benchmark)</item>
+    <item file-ref="U_Windows_XP_V6R1.32_STIG_Manual-xccdf" stig-title="Windows XP Security Technical Implementation Guide">Windows XP - V6R1.32 (STIG)</item>
+    <item file-ref="U_Windows_XP_V6R1.34_STIG_Benchmark-xccdf" stig-title="Windows XP Security Technical Implementation Guide">Windows XP - V6R1.34 (Benchmark)</item>
+    <item file-ref="U_Wireless_Keyboard_Mouse_V6R9_manual-xccdf" stig-title="Wireless Keyboard  and Mouse Security Technical Implementation Guide (STIG)">Wireless Keyboard and Mouse - V6R8 (STIG)</item>
+    <item file-ref="U_Wireless_Management_Server_Policy_V1R3_manual-xccdf" stig-title="Wireless Management Server Policy Security Technical Implementation Guide">Wireless Management Server Policy - V1R3 (STIG)</item>
+    <item file-ref="U_Wireless_Management_Server_Policy_V1R4_Manual-xccdf" stig-title="Wireless Management Server Policy Security Technical Implementation Guide">Wireless Management Server Policy - V1R4 (STIG)</item>
+    <item file-ref="U_WLAN_Client_V6R9_Manual-xccdf" stig-title="WLAN Client Security Technical Implementation Guide (STIG)">WLAN Client - V6R9 (STIG)</item>
+    <item file-ref="U_WMAN_Subscriber_V6R9_manual-xccdf" stig-title="WMAN Subscriber Security Technical Implementation Guide (STIG)">WMAN Subscriber - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_ACF2_V6R28_STIG_Manual-xccdf" stig-title="z/OS ACF2 STIG">z/OS ACF2 - V6R28 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-D_for_ACF2_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-D for ACF2 STIG">z/OS BMC CONTROL-D for ACF2 - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-D_for_RACF_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-D for RACF STIG">z/OS BMC CONTROL-D for RACF - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-D_for_TSS_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-D for TSS STIG">z/OS BMC CONTROL-D for TSS - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-M_for_ACF2_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-M for ACF2 STIG">z/OS BMC CONTROL-M for ACF2 - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-M_for_RACF_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-M for RACF STIG">z/OS BMC CONTROL-M for RACF - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-M_for_TSS_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-M for TSS STIG">z/OS BMC CONTROL-M for TSS - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-M_Restart_for ACF2_V6R5_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-M/Restart for ACF2 STIG">z/OS BMC CONTROL-M/Restart for ACF2 - V6R5 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-M_Restart_for_RACF_V6R5_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-M/Restart for RACF STIG">z/OS BMC CONTROL-M/Restart for RACF - V6R5 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-M_Restart_for_TSS_V6R5_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-M/Restart for TSS STIG">z/OS BMC CONTROL-M/Restart for TSS - V6R5 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-O_for_ACF2_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-O for ACF2 STIG">z/OS BMC CONTROL-O for ACF2 - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-O_for_RACF_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-O for RACF STIG">z/OS BMC CONTROL-O for RACF - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_CONTROL-O_for_TSS_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC CONTROL-O for TSS STIG">z/OS BMC CONTROL-O for TSS - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_IOA_for_ACF2_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC IOA for ACF2 STIG">z/OS BMC IOA for ACF2 - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_IOA_for_RACF_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC IOA for RACF STIG">z/OS BMC IOA for RACF - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_IOA_for_TSS_V6R6_STIG_Manual-xccdf" stig-title="z/OS BMC IOA for TSS STIG">z/OS BMC IOA for TSS - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_BMC_MAINVIEW_for_zOS_for_ACF2_V6R7_STIG_Manual-xccdf" stig-title="z/OS BMC MAINVIEW for z/OS for ACF2 STIG">z/OS BMC MAINVIEW for z/OS for ACF2 - V6R7 (STIG)</item>
+    <item file-ref="U_zOS_BMC_MAINVIEW_for_zOS_for_RACF_V6R7_STIG_Manual-xccdf" stig-title="z/OS BMC MAINVIEW for z/OS for RACF STIG">z/OS BMC MAINVIEW for z/OS for RACF - V6R7 (STIG)</item>
+    <item file-ref="U_zOS_BMC_MAINVIEW_for_zOS_for_TSS_V6R7_STIG_Manual-xccdf" stig-title="z/OS BMC MAINVIEW for z/OS for TSS STIG">z/OS BMC MAINVIEW for z/OS for TSS - V6R7 (STIG)</item>
+    <item file-ref="U_zOS_CA_1_Tape_Management_for_ACF2_V6R4_STIG_Manual-xccdf" stig-title="z/OS CA 1 Tape Management for ACF2 STIG">z/OS CA 1 Tape Management for ACF2 - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_CA_1_Tape_Management_for_RACF_V6R4_STIG_Manual-xccdf" stig-title="z/OS CA 1 Tape Management for RACF STIG">z/OS CA 1 Tape Management for RACF - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_CA_1_Tape_Management_for_TSS_V6R4_STIG_Manual-xccdf" stig-title="z/OS CA 1 Tape Management for TSS STIG">z/OS CA 1 Tape Management for TSS - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_CA_Auditor_for_ACF2_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA Auditor for ACF2 STIG">z/OS CA Auditor for ACF2 - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_Auditor_for_RACF_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA Auditor for RACF STIG">z/OS CA Auditor for RACF - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_Auditor_for_TSS_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA Auditor for TSS STIG">z/OS CA Auditor for TSS - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_Common_Services_for_ACF2_V6R2_STIG_Manual-xccdf" stig-title="z/OS CA Common Services for ACF2 STIG">z/OS CA Common Services for ACF2 - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_CA_Common_Services_for_RACF_V6R2_STIG_Manual-xccdf" stig-title="z/OS CA Common Services for RACF STIG">z/OS CA Common Services for RACF - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_CA_Common_Services_for_TSS_V6R2_STIG_Manual-xccdf" stig-title="z/OS CA Common Services for TSS STIG">z/OS CA Common Services for TSS - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_CA_MICS_for_ACF2_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA MICS for ACF2 STIG">z/OS CA MICS for ACF2 - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_MICS_for_RACF_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA MICS for RACF STIG">z/OS CA MICS for RACF - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_MICS_for_TSS_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA MICS for TSS STIG">z/OS CA MICS for TSS - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_MIM_for_ACF2_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA MIM for ACF2 STIG">z/OS CA MIM for ACF2 - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_MIM_for_RACF_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA MIM for RACF STIG">z/OS CA MIM for RACF - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_MIM_for_TSS_V6R3_STIG_Manual-xccdf" stig-title="z/OS CA MIM for TSS STIG">z/OS CA MIM for TSS - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CA_VTAPE_for_ACF2_V6R4_STIG_Manual-xccdf" stig-title="z/OS CA VTAPE for ACF2 STIG">z/OS CA VTAPE for ACF2 - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_CA_VTAPE_for_RACF_V6R4_STIG_Manual-xccdf" stig-title="z/OS CA VTAPE for RACF STIG">z/OS CA VTAPE for RACF - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_CA_VTAPE_for_TSS_V6R4_STIG_Manual-xccdf" stig-title="z/OS CA VTAPE for TSS STIG">z/OS CA VTAPE for TSS - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_Catalog_Solutions_for_ACF2_V6R4_STIG_Manual-xccdf" stig-title="z/OS Catalog Solutions for ACF2 STIG">z/OS Catalog Solutions for ACF2 - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_Catalog_Solutions_for_RACF_V6R4_STIG_Manual-xccdf" stig-title="z/OS Catalog Solutions for RACF STIG">z/OS Catalog Solutions for RACF - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_Catalog_Solutions_for_TSS_V6R4_STIG_Manual-xccdf" stig-title="z/OS Catalog Solutions for TSS STIG">z/OS Catalog Solutions for TSS - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_CLSupersession_for RACF_V6R8_STIG_Manual-xccdf" stig-title="z/OS CL/SuperSession for RACF STIG">z/OS CL/SuperSession for RACF - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_CLSuperSession_for_ACF2_V6R8_STIG_Manual-xccdf" stig-title="z/OS CL/SuperSession for ACF2 STIG">z/OS CL/SuperSession for ACF2 - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_CLSupersession_for_TSS_V6R8_STIG_Manual-xccdf" stig-title="z/OS CL/SuperSession for TSS STIG">z/OS CL/SuperSession for TSS - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_Compuware_Abend-AID_for_ACF2_V6R5_STIG_Manual-xccdf" stig-title="z/OS Compuware Abend-AID for ACF2 STIG">z/OS Compuware Abend-AID for ACF2 - V6R5 (STIG)</item>
+    <item file-ref="U_zOS_Compuware_Abend-AID_for_RACF_V6R5_STIG_Manual-xccdf" stig-title="z/OS Compuware Abend-AID for RACF STIG">z/OS Compuware Abend-AID for RACF - V6R5 (STIG)</item>
+    <item file-ref="U_zOS_Compuware_Abend-AID_for_TSS_V6R5_STIG_Manual-xccdf" stig-title="z/OS Compuware Abend-AID for TSS STIG">z/OS Compuware Abend-AID for TSS - V6R5 (STIG)</item>
+    <item file-ref="U_zOS_CSSMTP_for_ACF2_V6R3_STIG_Manual-xccdf" stig-title="z/OS CSSMTP for ACF2 STIG">z/OS CSSMTP for ACF2 - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CSSMTP_for_RACF_V6R3_STIG_Manual-xccdf" stig-title="z/OS CSSMTP for RACF STIG">z/OS CSSMTP for RACF - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_CSSMTP_for_TSS_V6R3_STIG_Manual-xccdf" stig-title="z/OS CSSMTP for TSS STIG">z/OS CSSMTP for TSS - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_FDR_for_ACF2_V6R2_STIG_Manual-xccdf" stig-title="z/OS FDR for ACF2 STIG">z/OS FDR for ACF2 - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_FDR_for_RACF_V6R2_STIG_Manual-xccdf" stig-title="z/OS FDR for RACF STIG">z/OS FDR for RACF - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_FDR_for_TSS_V6R2_STIG_Manual-xccdf" stig-title="z/OS FDR for TSS STIG">z/OS FDR for TSS - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_HCD_for_ACF2_V6R3_STIG_Manual-xccdf" stig-title="z/OS HCD for ACF2 STIG">z/OS HCD for ACF2 - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_HCD_for_RACF_V6R3_STIG_Manual-xccdf" stig-title="z/OS HCD for RACF STIG">z/OS HCD for RACF - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_HCD_for_TSS_V6R3_STIG_Manual-xccdf" stig-title="z/OS HCD for TSS STIG">z/OS HCD for TSS - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_IBM_CICS_Transaction_Server_for_ACF2_V6R3_STIG_Manual-xccdf" stig-title="z/OS IBM CICS Transaction Server for ACF2 STIG">z/OS IBM CICS Transaction Server for ACF2 - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_IBM_CICS_Transaction_Server_for_RACF_V6R3_STIG_Manual-xccdf" stig-title="z/OS IBM CICS Transaction Server for RACF STIG">z/OS IBM CICS Transaction Server for RACF - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_IBM_CICS_Transaction_Server_for_TSS_V6R3_STIG_Manual-xccdf" stig-title="z/OS IBM CICS Transaction Server for TSS STIG">z/OS IBM CICS Transaction Server for TSS - V6R3 (STIG)</item>
+    <item file-ref="U_zOS_IBM_Health_Checker_for_ACF2_V6R2_STIG_Manual-xccdf" stig-title="z/OS IBM Health Checker for ACF2 STIG">z/OS IBM Health Checker for ACF2 - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_IBM_Health_Checker_for_RACF_V6R2_STIG_Manual-xccdf" stig-title="z/OS IBM Health Checker for RACF STIG">z/OS IBM Health Checker for RACF - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_IBM_Health_Checker_for_TSS_V6R2_STIG_Manual-xccdf" stig-title="z/OS IBM Health Checker for TSS STIG">z/OS IBM Health Checker for TSS - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_IBM_SDSF_for_ACF2_V6R8_STIG_Manual-xccdf" stig-title="z/OS IBM System Display and Search Facility (SDSF) for ACF2 STIG">z/OS IBM System Display and Search Facility (SDSF) for ACF2 - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_IBM_SDSF_for_RACF_V6R8_STIG_Manual_xccdf" stig-title="z/OS IBM System Display and Search Facility (SDSF) for RACF STIG">z/OS IBM System Display and Search Facility (SDSF) for RACF - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_IBM_SDSF_for_TSS_V6R8_STIG_Manual-xccdf" stig-title="z/OS IBM System Display and Search Facility (SDSF) for TSS STIG">z/OS IBM System Display and Search Facility (SDSF) for TSS - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_ICSF_for_ACF2_V6R4_STIG_Manual-xccdf" stig-title="z/OS ICSF for ACF2 STIG">z/OS ICSF for ACF2 - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_ICSF_for_RACF_V6R4_STIG_Manual-xccdf" stig-title="z/OS ICSF for RACF STIG">z/OS ICSF for RACF - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_ICSF_for_TSS_V6R4_STIG_Manual-xccdf" stig-title="z/OS ICSF for TSS STIG">z/OS ICSF for TSS - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_NetView for ACF2_V6R8_STIG_Manual-xccdf" stig-title="z/OS NetView for ACF2 STIG">z/OS NetView for ACF2 - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_NetView for RACF_V6R8_STIG_Manual-xccdf" stig-title="z/OS NetView for RACF STIG">z/OS NetView for RACF - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_NetView for TSS_V6R8_STIG_Manual-xccdf" stig-title="z/OS NetView for TSS STIG">z/OS NetView for TSS - V6R8 (STIG)</item>
+    <item file-ref="U_zOS_Quest_NC-Pass_for_ACF2_V6R2_STIG_Manual-xccdf" stig-title="z/OS Quest NC-Pass for ACF2 STIG">z/OS Quest NC-Pass for ACF2 - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_Quest_NC-Pass_for_RACF_V6R2_STIG_Manual-xccdf" stig-title="z/OS Quest NC-Pass for RACF STIG">z/OS Quest NC-Pass for RACF - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_Quest_NC-Pass_for_TSS_V6R2_STIG_Manual-xccdf" stig-title="z/OS Quest NC-Pass for TSS STIG">z/OS Quest NC-Pass for TSS - V6R2 (STIG)</item>
+    <item file-ref="U_zOS_RACF_V6R28_STIG_Manual-xccdf" stig-title="z/OS RACF STIG">z/OS RACF - V6R28 (STIG)</item>
+    <item file-ref="U_zOS_ROSCOE_for_ACF2_V6R7_STIG_Manual-xccdf" stig-title="z/OS ROSCOE for ACF2 STIG">z/OS ROSCOE for ACF2 - V6R7 (STIG)</item>
+    <item file-ref="U_zOS_ROSCOE_for_RACF_V6R7_STIG_Manual-xccdf" stig-title="z/OS ROSCOE for RACF STIG">z/OS ROSCOE for RACF - V6R7 (STIG)</item>
+    <item file-ref="U_zOS_ROSCOE_for_TSS_V6R7_STIG_Manual-xccdf" stig-title="z/OS ROSCOE for TSS STIG">z/OS ROSCOE for TSS - V6R7 (STIG)</item>
+    <item file-ref="U_zOS_SRRAUDIT_for_ACF2_V6R4_STIG_Manual-xccdf" stig-title="z/OS SRRAUDIT for ACF2 STIG">z/OS SRRAUDIT for ACF2 - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_SRRAUDIT_for_RACF_V6R4_STIG_Manual-xccdf" stig-title="z/OS SRRAUDIT for RACF STIG">z/OS SRRAUDIT for RACF - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_SRRAUDIT_for_TSS_V6R4_STIG_Manual-xccdf" stig-title="z/OS SRRAUDIT for TSS STIG">z/OS SRRAUDIT for TSS - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_TADz_for_ACF2_V6R6_STIG_Manual-xccdf" stig-title="z/OS TADz for ACF2 STIG">z/OS TADz for ACF2 - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_TADz_for_RACF_V6R6_STIG_Manual-xccdf" stig-title="z/OS TADz for RACF STIG">z/OS TADz for RACF - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_TADz_for_TSS_V6R6_STIG_Manual-xccdf" stig-title="z/OS TADz for TSS STIG">z/OS TADz for TSS - V6R6 (STIG)</item>
+    <item file-ref="U_zOS_TDMF_for_ACF2_V6R4_STIG_Manual-xccdf" stig-title="z/OS TDMF for ACF2 STIG">z/OS TDMF for ACF2 - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_TDMF_for_RACF_V6R4_STIG_Manual-xccdf" stig-title="z/OS TDMF for RACF STIG">z/OS TDMF for RACF - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_TDMF_for_TSS_V6R4_STIG_Manual-xccdf" stig-title="z/OS TDMF for TSS STIG">z/OS TDMF for TSS - V6R4 (STIG)</item>
+    <item file-ref="U_zOS_TSS_V6R28_STIG_Manual-xccdf" stig-title="z/OS TSS STIG">z/OS TSS - V6R28 (STIG)</item>
+    <item file-ref="U_zOS_VSS_for_RACF_V6R7_STIG_Manual-xccdf" stig-title="z/OS VSS for RACF STIG">z/OS VSS for RACF - V6R7 (STIG)</item>
+    <item file-ref="8500controls" stig-title="8500-2">8500-2</item>
+    <item file-ref="80053controls" stig-title="800-53">800-53</item>
+  </menu>
+</configurations>
