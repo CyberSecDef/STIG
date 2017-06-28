@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdf="http://checklists.nist.gov/xccdf/1.1" xmlns:cci="http://iase.disa.mil/cci">
+<xsl:stylesheet version="1.0" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cdf="http://checklists.nist.gov/xccdf/1.1" xmlns:cci="http://iase.disa.mil/cci" >
+	
+
 	<xsl:import href="functions.xsl"/>
+	<xsl:preserve-space elements="cdf:check cdf:checkcontent" />
 	
 	<xsl:template match="/">
 		<html lang="en">
@@ -397,7 +400,8 @@
 									<th>Vulnerability ID</th>
 									<th>Version</th>
 									<th>Rule ID</th>
-									<th>IA Controls</th>
+									<th>RMF Controls</th>
+									<th>DIACAP Controls</th>
 									<th>Severity</th>
 									
 								</tr>
@@ -416,7 +420,8 @@
 									<td id="stigCklModalId"></td>
 									<td id="stigCklModalVersion"></td>
 									<td id="stigCklModalRuleId"></td>
-									<td id="stigCklModalIAControls"></td>
+									<td id="stigCklModalRMF"></td>
+									<td id="stigCklModalDIACAP"></td>
 									<td id="stigCklModalSeverity"></td>
 								</tr>
 							</tbody>
@@ -426,10 +431,10 @@
 						<div class="stig-description text-justify small" id="stigCklModalDescription"></div>
 						
 						<h4>Check Text ( <span id="stigCklModalCheckRef"></span> ):</h4>
-						<div class="text-justify small" id="stigCklModalCheckContent"></div>
+						<pre><div class="text-justify small" id="stigCklModalCheckContent"></div></pre>
 						
 						<h4>Fix Text ( <span id="stigCklModalFixRef"></span> ):</h4>
-						<div class="text-justify small" id="stigCklModalFixText"></div>
+						<pre><div class="text-justify small" id="stigCklModalFixText"></div></pre>
 						
 						<h4>Finding Details:</h4>
 						<div class="text-justify small">
@@ -771,12 +776,37 @@ var $objStig = {
 	</xsl:template>
 	
 	<xsl:template match="//cdf:Rule" mode="ruleDetailsModal">
-		<div class="modal fade">
+		<xsl:variable name="cci" select="./cdf:ident[@system='http://iase.disa.mil/cci']" />
+		<xsl:variable name="iactls" select="document('U_CCI_List.xml')/cci:cci_list/cci:cci_items/cci:cci_item[@id=$cci]/cci:references/cci:reference[starts-with(@title,'NIST SP 800-53 Revision 4')]/@index" />
+		<xsl:variable name="rmfCtls">								
+			<xsl:for-each select="$iactls" >
+				<xsl:sort select="." />
+				<rmf>
+					<xsl:if test="generate-id() = generate-id($iactls[. = current()][1])">
+						<xsl:value-of select="." />
+					</xsl:if>
+				</rmf>
+			</xsl:for-each>
+		</xsl:variable>
+								
+								
+		<div class="modal ">
 			<xsl:attribute name="id">finding<xsl:value-of select="@id" /></xsl:attribute>
 			<div class="modal-dialog modal-fit">
 				<div class="modal-content">
 					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+					
+						<div class="btn-group pull-right" role="group">
+							<button type="button" class="btn btn-default prev-modal" data-dismiss="modal" aria-label="Previous Requirement" onclick="$('#' + $('div#finding' + $(this).attr('data-rule') ).prev().attr('id')  ).modal();">
+								<xsl:attribute name="data-rule"><xsl:value-of select="@id" /></xsl:attribute>
+								&lt;
+							</button>
+							<button type="button" class="btn btn-default prev-modal" data-dismiss="modal" aria-label="Next Requirement" onclick="$('#' + $('div#finding' + $(this).attr('data-rule') ).next().attr('id')  ).modal();">
+								<xsl:attribute name="data-rule"><xsl:value-of select="@id" /></xsl:attribute>
+								&gt;
+							</button>
+							<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">X</button>
+						</div>
 						<h4 class="modal-title"><em><xsl:value-of select="./cdf:title" /></em></h4>
 					</div>
 					<div class="modal-body">
@@ -786,7 +816,8 @@ var $objStig = {
 									<th>Vulnerability ID	</th>
 									<th>Version</th>
 									<th>Rule ID</th>
-									<th>IA Controls</th>
+									<th>RMF Controls</th>
+									<th>DIACAP Controls</th>
 									<th>Severity</th>
 									
 								</tr>
@@ -796,12 +827,24 @@ var $objStig = {
 									<td><xsl:value-of select="../@id" /></td>
 									<td><xsl:value-of select="./cdf:version" /></td>
 									<td><xsl:value-of select="@id" /></td>
-									<td class="ia-controls">
-									
-										<xsl:value-of select="./cdf:description" />
-									
+									<td class="rmf-controls">
+										<xsl:for-each select="msxsl:node-set($rmfCtls)/rmf" >
+											<xsl:if test=". != ''">
+												<xsl:copy-of select="." />
+												 <xsl:if test="position() != last()">, </xsl:if>
+											</xsl:if>									
+										</xsl:for-each>
 									</td>
-									
+									<td class="rmf-controls">
+										<xsl:for-each select="msxsl:node-set($rmfCtls)/rmf[not(preceding-sibling::rmf)]" >
+											<xsl:variable name="rmfCurCtl" select="concat(substring(.,1,3),translate(substring(.,4,2),'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ',''))" />
+											
+											<xsl:for-each select="document('controlMapping.xml')/controlMapping/control[./rmf=$rmfCurCtl]/diacap">
+												<xsl:value-of select="." />
+												 <xsl:if test="position() != last()">, </xsl:if>
+											</xsl:for-each>
+										</xsl:for-each>									
+									</td>
 									<xsl:choose>
 										<xsl:when test="@severity = 'high'">
 											<td class="bg-danger">High</td>
@@ -825,16 +868,16 @@ var $objStig = {
 						
 						<h4>Check Text ( <xsl:value-of select="./cdf:check/@system" /> ):</h4>
 						<div class="text-justify small">
-							<xsl:value-of select="./cdf:check/cdf:check-content" />
+							<pre><xsl:value-of select="./cdf:check/cdf:check-content" /></pre>
 						</div>
 						
 						<h4>Fix Text ( <xsl:value-of select="./cdf:fixtext/@fixref" /> ):</h4>
 						<div class="text-justify small">
-							<xsl:value-of select="./cdf:fixtext" />
+							<pre><xsl:value-of select="./cdf:fixtext" /></pre>
 						</div>
 						
 						<xsl:if test="./cdf:ident[@system='http://iase.disa.mil/cci']">
-							<xsl:variable name="cci" select="./cdf:ident[@system='http://iase.disa.mil/cci']" />
+							
 							<h4>CCI Information ( <xsl:value-of select="$cci" /> ):</h4>
 							<div class="text-justify small cci">
 								<xsl:value-of select="document('U_CCI_List.xml')/cci:cci_list/cci:cci_items/cci:cci_item[@id=$cci][1]/cci:definition" />
@@ -848,8 +891,6 @@ var $objStig = {
 								</xsl:for-each>
 							</div>
 						</xsl:if>
-						
-						
 						<h4>References</h4>
 						<table class="small table table-striped table-bordered table-condensed table-curved">
 							<xsl:for-each select="./cdf:reference/*">
@@ -876,6 +917,10 @@ var $objStig = {
 			</div>
 		</div>
 	</xsl:template>
+
+
+
+
 	
 	<xsl:template match="//cdf:Rule" mode="rawFindingsData">
 		<xsl:for-each select=".">
@@ -970,12 +1015,12 @@ var $objStig = {
 				
 				<strong>Check Content ( <xsl:value-of select="./cdf:check/@system" /> ): </strong>
 				<blockquote class="small">
-				<xsl:value-of select="./cdf:check/cdf:check-content" />
+				<pre><xsl:value-of select="./cdf:check/cdf:check-content" /></pre>
 				</blockquote>
 				
 				<strong>Fix Text ( <xsl:value-of select="./cdf:fixtext/@fixref" /> ): </strong>
 				<blockquote class="small">
-				<xsl:value-of select="./cdf:fixtext" />
+				<pre><xsl:value-of select="./cdf:fixtext" /></pre>
 				</blockquote>
 				
 				<xsl:if test="string-length(substring-after(substring-before(./cdf:description,'&lt;/FalsePositives&gt;'), '&lt;FalsePositives&gt;'))>0">
