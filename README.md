@@ -30,26 +30,27 @@ To regenerate the HTML files with each DISA STIG Release, execute the following 
 ```
 clear;
 
-[xml]$cm = New-Object system.Xml.XmlDocument
-$cm.LoadXml('<?xml version="1.0" encoding="utf-8" standalone="yes"?><controlMapping><control /></controlMapping>')
+[xml]$cm = New-Object system.Xml.XmlDocument;
+$cm.LoadXml('<?xml version="1.0" encoding="utf-8" standalone="yes"?><controlMapping><control /></controlMapping>');
 
-$source = import-csv 'DoDI 8500.2- NIST SP 800-53 Rev 4 Crosswalk_12_22_14.csv'
+$source = import-csv 'DoDI 8500.2- NIST SP 800-53 Rev 4 Crosswalk_12_22_14.csv';
 foreach($s in $source){
-	$s.'NIST SP 800-53 Rev 4 Security Control Acronym' -split ';' | %{
+	
+	($s.'NIST SP 800-53 Rev 4 Security Control Acronym' -replace ',',';' -replace ':',';').Trim() -split ';' | ? { $_.trim() -ne '' } | %{
 
-		$control = $cm.createelement("control") 
+		$control = $cm.createelement("control"); 
 		
-		$rmf = $cm.createelement("rmf") 
-		$rmfText = $cm.CreateTextNode( $($_.trim()) )
-		$rmf.AppendChild($rmfText) | out-null
-		$control.appendChild($rmf)
+		$rmf = $cm.createelement("rmf"); 
+		$rmfText = $cm.CreateTextNode( $($_.trim()) );
+		$rmf.AppendChild($rmfText) | out-null;
+		$control.appendChild($rmf);
 		
-		$diacap = $cm.createelement("diacap")
-		$diacapText = $cm.CreateTextNode( $($s.'DoDI 8500.2 Security Control Acronym').trim() ) 
-		$diacap.AppendChild($diacapText) | out-null
-		$control.appendChild($diacap)
+		$diacap = $cm.createelement("diacap");
+		$diacapText = $cm.CreateTextNode( $($s.'DoDI 8500.2 Security Control Acronym').trim() ) ;
+		$diacap.AppendChild($diacapText) | out-null;
+		$control.appendChild($diacap);
 		
-		$cm.controlMapping.AppendChild($control) | out-null
+		$cm.controlMapping.AppendChild($control) | out-null;
 	}
 }
 
